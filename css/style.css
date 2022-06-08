@@ -52,6 +52,18 @@ li {
   }
 }
 
+@media (max-width: 460px) {
+  .nav-item {
+    padding: 0.30em;
+  }
+}
+
+@media (max-width: 370px) {
+  .nav-item {
+    padding: 0.10em;
+  }
+}
+
 .wrapper {
   display: block;
   position: absolute;
@@ -95,7 +107,7 @@ li {
   font-family: inherit;
   color: inherit;
   background-color: #2f3136;
-  box-shadow: 1rem 0.5rem 1rem black;
+  box-shadow: black 0px 20px 30px -10px;
   padding: 0.75rem 0.75rem 0.75rem 0.75rem;
 }
 
