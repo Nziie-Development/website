@@ -72,14 +72,14 @@ li {
   transform: translate(-50%, -50%);
 }
 .button {
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
   text-align: center;
   text-decoration: none;
   border: 0.3em solid inherit;
   font-size: 20px;
   display: inline-block;
   border-radius: 0.3em;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.25s ease-in-out;
   position: relative;
   overflow: hidden;
 }
