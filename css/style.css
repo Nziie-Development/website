@@ -64,6 +64,36 @@ li {
   }
 }
 
+#copytexticon {
+  color: rgb(112, 215, 247) !important;
+}
+
+
+.copybtn {
+  background: #eee;
+  color: #999;
+  font-size: 1.5em;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.copybtn:hover {
+  color: #222;
+}
+
+
+
+
+
+.fa-copy:hover {
+  cursor: pointer !important;
+}
+
 .wrapper {
   display: block;
   position: absolute;
