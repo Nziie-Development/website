@@ -6,6 +6,7 @@ var counterContainer = document.querySelector('.website-counter');
 var visitCount = localStorage.getItem(`page_view_${page}`);
 var resetButton = document.getElementById("#reset");
 
+/* <div id="text02" class="website-counter"></div> */
 
 if (visitCount) {
   visitCount = Number(visitCount) + 1;
