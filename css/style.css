@@ -140,6 +140,7 @@ li {
   box-shadow: black 0px 20px 30px -10px;
   padding: 0.75rem 0.75rem 0.75rem 0.75rem;
   text-shadow: 5px 3px 5.5px black;
+  border-radius: 15px;
 }
 
 .avatar {
