@@ -1,1 +1,1 @@
-To start: `npx docusaurus start`
+Website: https://nziie.is-a.dev
