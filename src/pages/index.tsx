@@ -7,7 +7,7 @@ export default function Home(): JSX.Element {
   return (
     <DefaultLayout
       title="Nziie"
-      description="Server Manage Docs"
+      description="Nziie Development services"
     >
       <PYCHero
         title="Nziie's Website"
