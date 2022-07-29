@@ -74,6 +74,7 @@ This plan is great for all complicated bots, much faster than all the other plan
 
 :::note
 Please make sure to let me know what type of bot you want when you purchase by opening a ticket in my [development server](/discord)!
-
+:::
+:::info
 You are not required to provide all personal information to us on register page. Just First name (you can enter there nickname), Email address, Discord Username with tag form fields are required on the checkout (register) page.
 :::
