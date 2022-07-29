@@ -1,12 +1,17 @@
 ---
 title: Services
-description: Services I offer
+description: Development services I offer
 sidebar_position: 3
 ---
 
 import Button from '../src/components/Button';
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
+
+## Info
+I offer custom Discord bots. You can contact me in my Discord server - [Nziie's Development](/discord). 
+
+I code all Discord bots in Python ([Pycord](https://pycord.dev) - discord.py v2 fork).
 
 ## Basic Plan
 This plan is mainly for small bots and a good amount of features, may be slower compared to the other plans' specs.
