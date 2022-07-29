@@ -1,6 +1,6 @@
 ---
 title: Services
-description: Services I offer
+description: Development Services I offer
 sidebar_position: 3
 ---
 
@@ -8,7 +8,15 @@ import Button from '../src/components/Button';
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-## Basic Plan
+
+## Info
+I offer custom Discord bots. You can contact me on my Discord server [Nziie's Development](/discord). 
+
+I code all Discord bots in Python (pycord library - discord.py v2 fork).
+
+
+## Bot plans (tiers):
+### Basic Plan
 This plan is mainly for small bots and a good amount of features, may be slower compared to the other plans' specs.
 <Tabs>
   <TabItem value="_price" label="Price" default>
@@ -29,7 +37,7 @@ This plan is mainly for small bots and a good amount of features, may be slower 
   <Button link="https://client.pinghost-v2.pinglik.eu/index.php?rp=/store/vnziie/discord-bot-basic" class="basicplanbutton">Purchase</Button>
 </div>
 
-## Advanced Plan
+### Advanced Plan
 This is plan runs more complex bots better than the [basic plan](#basic-plan). This would be good for a bot that relies on Discord events, such as Modmail (for listening to messages). I personally suggest you to pick this plan, most of our clients have this.
 <Tabs>
   <TabItem value="_price" label="Price" default>
@@ -50,11 +58,11 @@ This is plan runs more complex bots better than the [basic plan](#basic-plan). T
   <Button link="https://client.pinghost-v2.pinglik.eu/index.php?rp=/store/vnziie/discord-bot-advanced">Purchase</Button>
 </div>
 
-## Premium Plan
+### Premium Plan
 This plan is great for all complicated bots, much faster than all the other plans.
 <Tabs>
   <TabItem value="_price" label="Price" default>
-    <strong>$10.90 / 3 months ($3.6 / month)</strong>
+    <strong>$10.90 / 3 months ($3.60 / month)</strong>
   </TabItem>
   <TabItem value="_ram" label="RAM">
     <strong>512 MB</strong>
