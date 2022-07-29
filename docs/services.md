@@ -26,11 +26,11 @@ This plan is mainly for small bots and a good amount of features, may be slower 
 </Tabs>
 
 <div className="pyc-hero__actions">
-  <Button link="https://client.pinghost-v2.pinglik.eu/cart.php?a=confproduct&i=4" class="basicplanbutton">Purchase</Button>
+  <Button link="https://client.pinghost-v2.pinglik.eu/index.php?rp=/store/vnziie/discord-bot-basic" class="basicplanbutton">Purchase</Button>
 </div>
 
 ## Advanced Plan
-This is plan runs more complex bots better than the [basic plan](#basic-plan). This would be good for a bot that relies on Discord events, such as Modmail (for listening to messages).
+This is plan runs more complex bots better than the [basic plan](#basic-plan). This would be good for a bot that relies on Discord events, such as Modmail (for listening to messages). I personally suggest you to pick this plan, most of our clients have this.
 <Tabs>
   <TabItem value="_price" label="Price" default>
     <strong>$5.80 / 3 months ($1.9 / month)</strong>
@@ -47,7 +47,7 @@ This is plan runs more complex bots better than the [basic plan](#basic-plan). T
 </Tabs>
 
 <div className="pyc-hero__actions">
-  <Button link="https://client.pinghost-v2.pinglik.eu/cart.php?a=confproduct&i=3">Purchase</Button>
+  <Button link="https://client.pinghost-v2.pinglik.eu/index.php?rp=/store/vnziie/discord-bot-advanced">Purchase</Button>
 </div>
 
 ## Premium Plan
@@ -68,7 +68,7 @@ This plan is great for all complicated bots, much faster than all the other plan
 </Tabs>
 
 <div className="pyc-hero__actions">
-  <Button link="https://client.pinghost-v2.pinglik.eu/cart.php?a=confproduct&i=2">Purchase</Button>
+  <Button link="https://client.pinghost-v2.pinglik.eu/index.php?rp=/store/vnziie/discord-bot-premium">Purchase</Button>
 </div>
 <br/>
 :::info
