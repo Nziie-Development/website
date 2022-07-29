@@ -17,5 +17,3 @@ If you are interested in hosting your Discord bot on [AnonDev's hosting service]
 **Website:** https://servermanagerbot.ml/ <br/>
 **Invite:** https://servermanagerbot.ml/invite <br/>
 **Documentation:** https://servermanagerbot.ml/docs
-
-<br/>
