@@ -8,14 +8,13 @@ export default function Home(): JSX.Element {
   return (
     <DefaultLayout
       title="Nziie"
-      description="Nziie Development services"
+      description="Nziie development services"
     >
 <Head>
-<script async src="https://arc.io/widget.min.js#hD9CJ6sv"></script>
-</Head>      
+</Head>
       <PYCHero
-        title="Nziie's Website"
-        subtitle="Imagine a cheap custom bot made to your liking"
+        title="Nziie"
+        subtitle="Imagine a custom bot made to your liking"
         hasLogo={true}
       />
       <main className="content-wrap--home-page">
