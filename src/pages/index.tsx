@@ -11,7 +11,6 @@ export default function Home(): JSX.Element {
       description="Nziie development services"
     >
 <Head>
-<script async src="https://arc.io/widget.min.js#hD9CJ6sv"></script>
 </Head>
       <PYCHero
         title="Nziie"
