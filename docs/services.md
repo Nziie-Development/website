@@ -70,3 +70,4 @@ This plan is great for all complicated bots, much faster than all the other plan
 <div className="pyc-hero__actions">
   <Button link="https://client.pinghost-v2.pinglik.eu/cart.php?a=confproduct&i=2">Purchase</Button>
 </div>
+<br/>
