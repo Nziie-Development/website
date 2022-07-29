@@ -54,7 +54,7 @@ This is plan runs more complex bots better than the [basic plan](#basic-plan). T
 This plan is great for all complicated bots, much faster than all the other plans.
 <Tabs>
   <TabItem value="_price" label="Price" default>
-    <strong>$5.80 / 3 months ($1.9 / month)</strong>
+    <strong>$10.90 / 3 months ($3.6 / month)</strong>
   </TabItem>
   <TabItem value="_ram" label="RAM">
     <strong>512 MB</strong>
