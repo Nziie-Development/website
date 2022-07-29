@@ -24,11 +24,9 @@ const config = {
       "classic",
       {
         docs: {
-          editUrl:
-            "https://github.com/Nzii3/nzii3.github.io/tree/main",
           routeBasePath: "/",
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: false,
         },
         theme: {
           customCss: require.resolve("./src/scss/main.scss"),

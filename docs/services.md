@@ -71,10 +71,7 @@ This plan is great for all complicated bots, much faster than all the other plan
   <Button link="https://client.pinghost-v2.pinglik.eu/index.php?rp=/store/vnziie/discord-bot-premium">Purchase</Button>
 </div>
 <br/>
-:::info
-You are not required to provide all personal information to us on register page. Just First name (you can enter there nickname), Email address, Discord Username with tag form fields are required on the checkout (register) page.<br>DM vNziie if you want to pay with an alternative method (Shoppy.gg).
-:::
-<br>
+
 :::note
-Make sure to open ticket on [Discord Support server](/discord) before or after you purchase and tell vNziie which command/features do you want and so.
+Please make sure to let me know what type of bot you want when you purchase and open a ticket in my [development server](/discord)!
 :::
