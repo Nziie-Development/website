@@ -8,4 +8,16 @@ Hey, I'm Nziie (en-zee). IRL, I'm just a 14 year old male in school. I'm my scho
 
 I also play football IRL and I'm part German by genetics - don't know if that's interesting :/.
 
+## Custom Discord Bots
+In partnership with [AnonDev](https://anondev.ml), I offer cheap hosting for the custom bots on powerful servers with good uptime. **If you are interested in getting custom bot from me, please join [my Discord server](/discord) and open ticket**.
+
+If you are interested in hosting your Discord bot on [AnonDev's hosting service](https://pinghost.pinglik.eu/), please join the support server and **open new support ticket**.
+
+## Server Manager
+[Server Manager](https://servermanagerbot.ml/invite) is a multipurpose bot that I've created using **Pycord**. It's growing fast and has **Moderation**, **Utility**, **a Suggestions System**, **Giveaways**, **Polls**, and more!
+
+**Website:** https://servermanagerbot.ml/ <br/>
+**Invite:** https://servermanagerbot.ml/invite <br/>
+**Documentation:** https://servermanagerbot.ml/docs
+
 <br/>
