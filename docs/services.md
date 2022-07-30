@@ -98,7 +98,7 @@ Here you can find list of extra (configurable options). If you are interested in
     <p>Price: <strong>$3.0 / 3 months ($1.0 / month)</strong></p>
   </TabItem>
   <TabItem value="_whitelabel" label="Whitelabel bot (own application)" default>
-    <p>You will need to make own application on [Discord Dev Portal](https://discord.com/developers/applications) and enable all intents. You will also need to provide your bot token to vNziie. This allows you to change bot username, avatar, about me section, etc. on your own. Good for those who want to act that it's their own bot.</p>
+    <p>You will need to make own application on <a href="https://discord.com/developers/applications">Discord Dev Portal</a> and enable all intents. You will also need to provide your bot token to vNziie. This allows you to change bot username, avatar, about me section, etc. on your own. Good for those who want to act that it's their own bot.</p>
   <p>Price: <strong>$5.0 / 3 months ($1.66 / month)</strong></p>
   </TabItem>  
 </Tabs>
