@@ -11,6 +11,9 @@ In partnership with [AnonDev](https://anondev.ml), I offer cheap hosting for the
 
 If you are interested in hosting your Discord bot or other project on [PingHost](https://pinghost.pinglik.eu/) (AnonDev's hosting service), please join the support server and **open new support ticket**.
 
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support AnonDev on Ko-fi', '#29abe0', 'J3J72WPRC');kofiwidget2.draw();</script> 
+
+
 ## Server Manager
 [Server Manager](https://servermanagerbot.ml/invite) is a multipurpose bot that I've created using **Pycord**. It's growing fast and has **Moderation**, **Utility**, **a Suggestions System**, **Giveaways**, **Polls**, and more!
 
