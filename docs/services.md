@@ -18,7 +18,7 @@ I code all Discord bots in Python ([Pycord](https://pycord.dev) - discord.py v2 
 This plan is mainly for small bots and a good amount of features, may be slower compared to the other plans' specs.
 <Tabs>
   <TabItem value="_price" label="Price" default>
-    <strong>$3.80 / 3 months ($1.2 / month)</strong>
+    <strong>($3.80/3.75€) / 3months ($1.2 / month)</strong>
   </TabItem>
   <TabItem value="_ram" label="RAM">
     <strong>128 MB</strong>
@@ -39,7 +39,7 @@ This plan is mainly for small bots and a good amount of features, may be slower 
 This is plan runs more complex bots better than the [basic plan](#basic-plan). This would be good for a bot that relies on Discord events, such as Modmail (for listening to messages). I personally suggest you to pick this plan, most of our clients have this.
 <Tabs>
   <TabItem value="_price" label="Price" default>
-    <strong>$5.80 / 3 months ($1.9 / month)</strong>
+    <strong>($5.80/5.75€)/ 3 months ($1.9 / month)</strong>
   </TabItem>
   <TabItem value="_ram" label="RAM">
     <strong>256 MB</strong>
@@ -60,7 +60,7 @@ This is plan runs more complex bots better than the [basic plan](#basic-plan). T
 This plan is great for all complicated bots, much faster than all the other plans.
 <Tabs>
   <TabItem value="_price" label="Price" default>
-    <strong>$10.90 / 3 months ($3.6 / month)</strong>
+    <strong>($10.90/10.75€) / 3 months ($3.6 / month)</strong>
   </TabItem>
   <TabItem value="_ram" label="RAM">
     <strong>512 MB</strong>
