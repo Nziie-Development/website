@@ -341,6 +341,44 @@ body {
   }
 }
 
+.user-card {
+  background-color:#23272a;
+  padding: 1rem 1rem 1rem 1rem;
+  width: 30rem;
+  box-shadow: black 0px 5px 20px;
+  border-radius: 9px;
+}
+
+.user-card .wrap {
+  display: grid;
+  grid-area: auto;
+  grid-gap: 0.7rem;
+}
+
+.user-card img {
+  border-radius: 50%;
+  width: 80px;
+  display: grid;
+  border: 2px solid #5865f2;
+  background-color: #5865f2;
+  grid-row: 1;
+  transition: all 0.3s ease;
+  &:hover {
+    border-color: #909aff;
+    background-color: #909aff;
+  }
+}
+
+.user-card .title {
+  font-family: ('Saira', monospace);
+  padding-top: 0.7rem;
+  grid-row: 2;
+}
+
+.user-card .text {
+  grid-row: 3;
+}
+
 @font-face{font-family:Ginto;font-weight:300;src:url(/static/fonts/ginto/ginto300.woff) format("woff")}
 @font-face{font-family:Ginto;font-weight:400;src:url(/static/fonts/ginto/ginto400.woff) format("woff")}
 @font-face{font-family:Ginto;font-weight:500;src:url(/static/fonts/ginto/ginto500.woff) format("woff")}
