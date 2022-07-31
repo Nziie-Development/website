@@ -1,6 +1,7 @@
 ---
 title: Reviews
-description: Client-made reviews
+description: Client-made reviews about my development services
+sidebar_position: 5
 ---
 
 <div class="user-card">
