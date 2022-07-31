@@ -14,6 +14,8 @@ If you are interested in hosting your Discord bot or other project on [PingHost]
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J72WPRC)
 
+AnonDev's Discord server: [Pinglik Support Server](https://pinglik.eu/support)
+
 
 ## Server Manager
 [Server Manager](https://servermanagerbot.ml/invite) is a multipurpose bot that I've created using **Pycord**. It's growing fast and has **Moderation**, **Utility**, **a Suggestions System**, **Giveaways**, **Polls**, and more!
