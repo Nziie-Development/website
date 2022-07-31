@@ -1,7 +1,7 @@
 ---
 title: Services
 description: Development services I offer
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 import Button from '../src/components/Button';
