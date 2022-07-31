@@ -6,13 +6,69 @@ description: Client-made reviews
 <div class="user-card">
   <div class="wrap">
     <div class="img">
-      <img src="img/logo.png"/>
+      <img src="img/neb.png"/>
     </div>
     <div class="title">
-      <h2>vNziie--#7777</h2>
+      <h2>Neb#7507</h2>
     </div>
     <div class="text">
-      This is a testing review.
+      vNziie has constantly impressed me with his development skills, with many new and innovative features added to our utilities bot, MCBC utilities. It has aided the management of MC Bedrock Chillzone (2k) and has helped us to improve the experience of our members. I would definitely recommend him to any person looking into getting a custom bot, and you will be garenteed to have great up time, regular communications and brilliant features!
+    </div>
+  </div>
+</div>
+<br/>
+<div class="user-card">
+  <div class="wrap">
+    <div class="img">
+      <img src="img/tommi.gif"/>
+    </div>
+    <div class="title">
+      <h2>Dr.Tommi.CR#7279</h2>
+    </div>
+    <div class="text">
+      The Bots are awesome, they have great functions and they are very usefull, also Nziie is always available for help if you need something related to your bot and also suggest good new ideas and features.
+    </div>
+  </div>
+</div>
+<br/>
+<div class="user-card">
+  <div class="wrap">
+    <div class="img">
+      <img src="img/stryker.png"/>
+    </div>
+    <div class="title">
+      <h2>Stryker3k Jnr#0966</h2>
+    </div>
+    <div class="text">
+      Where do I start honestly? One of the best bot devs out there! He's one of my go-to bot devs I would highly recommend to anyone in need of a cheap bot. He makes high quality & fast bots for other people. He has developed me an utilities bot and willing to improve it for me and add any features I ask for (within reason ofc) to the bot. Very responsive, high quality services, highly recommended by me & willing to answer any questions you have (even if they're basic). Keep up the good work vNziie!
+    </div>
+  </div>
+</div>
+<br/>
+<div class="user-card">
+  <div class="wrap">
+    <div class="img">
+      <img src="img/jaymar.png"/>
+    </div>
+    <div class="title">
+      <h2>JaymarThePG#0999</h2>
+    </div>
+    <div class="text">
+      I honestly believe vNziie, did a tremendous job on executing and producing my bot for the price and quality, I received it at. All the commands and function in my bot, looks sleek and easy for users to use, without me having to constantly mention to add embeds to it, or whatever. He uses his own intuitive to add them for his clients. You honestly can't go wrong with hiring vNziie to complete your bot, but of course nobody is perfect, 9/10 😉
+    </div>
+  </div>
+</div>
+<br/>
+<div class="user-card">
+  <div class="wrap">
+    <div class="img">
+      <img src="img/deceive.gif"/>
+    </div>
+    <div class="title">
+      <h2>! Deceive#8472</h2>
+    </div>
+    <div class="text">
+      vNziie has done an outstanding job with the bot made. The bot works and is designed exactly as intended. The commands feel premium, they are easy to use and are unique to a normal bot made. If anyone is wanting a bot made, I would personally recommend to vNziie to you, one of the best bot developers I know.
     </div>
   </div>
 </div>

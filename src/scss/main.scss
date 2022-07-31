@@ -344,7 +344,7 @@ body {
 .user-card {
   background-color:#23272a;
   padding: 1rem 1rem 1rem 1rem;
-  width: 30rem;
+  width: 27.75rem;
   box-shadow: black 0px 5px 20px;
   border-radius: 9px;
 }
@@ -363,7 +363,7 @@ body {
   background-color: #5865f2;
   grid-row: 1;
   transition: all 0.3s ease;
-  &:hover {
+  &:hover, &:focus {
     border-color: #909aff;
     background-color: #909aff;
   }
