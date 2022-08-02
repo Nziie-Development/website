@@ -1,6 +1,6 @@
 ---
 title: Buttons
-description: Discord Buttons in Pycord
+description: Discord buttons in Pycord
 ---
 I recommend [subclassing](../subclassing) here!
 
