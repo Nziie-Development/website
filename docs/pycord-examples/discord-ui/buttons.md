@@ -2,9 +2,7 @@
 title: Buttons
 description: Discord Buttons in Pycord
 ---
-
-I would COMPLETELY recommend subclassing EVERYTHING from the "message component family" (buttons, selects, context menus, modals, etc). The reason for this is because you can handle the callback easier, use the views persistently (check main.py for more info), you can also do something with else the 'interaction_check' event (to see if the author is the author of the message). With the interaction_check, ill show you my way to compare user objects to see who's the author or not while not having to pass in 'ctx' as you might not have access to it in every situation (e.g. events). While subclassing, you can also handle the 'on_timeout' event, this will occur when the view times out `super().__init__(timeout=float)`. You won't find examples of non-subclassed views as it's not recommended by anyone, it's easier to subclass.
-
+I recommend [subclassing](../subclassing) here!
 
 :::note
 
