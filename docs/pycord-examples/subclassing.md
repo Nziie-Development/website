@@ -27,6 +27,7 @@ async def success(ctx):
 async error(ctx):
   await ctx.send(embed=bot.error())
   # sends an error message
+```
 
 :::info Related
 • [Buttons](/discord-ui/buttons
