@@ -30,5 +30,5 @@ async error(ctx):
 ```
 
 :::info Related
-• [Buttons](/discord-ui/buttons)
+• [Buttons](pycord-examples/discord-ui/buttons)
 :::

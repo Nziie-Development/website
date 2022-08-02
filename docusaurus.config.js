@@ -50,7 +50,7 @@ const config = {
       hideOnScroll: true,
       items: [
         {
-          href: '/discord',
+          href: '/discord.html',
           position: 'right',
           label: 'Discord',
         },

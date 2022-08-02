@@ -9,7 +9,7 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
 ## Info
-I offer custom Discord bots. You can contact me in my Discord server - [Nziie's Development](/discord). 
+I offer custom Discord bots. You can contact me in my Discord server - [Nziie's Development](/discord.html). 
 
 I code all Discord bots in Python ([Pycord](https://pycord.dev) - discord.py v2 fork). The bots are hosted on powerful servers with good uptime.
 
@@ -79,7 +79,7 @@ This plan is great for all complicated bots, much faster than all the other plan
 <br/>
 
 :::info
-Please make sure to let me know what type of bot you want when you purchase by opening a ticket in my [development server](/discord)!
+Please make sure to let me know what type of bot you want when you purchase by opening a ticket in my [development server](/discord.html)!
 :::
 
 
@@ -89,7 +89,7 @@ You are not required to provide all personal information to us on register page.
 
 
 ## Extra Options
-Here you can find list of extra (configurable options). If you are interested in some of these extra options for your bot, please let me know by opening a ticket in my [development server](/discord). You can purchase extra options anytime (both for new and existing bots).
+Here you can find list of extra (configurable options). If you are interested in some of these extra options for your bot, please let me know by opening a ticket in my [development server](/discord.html). You can purchase extra options anytime (both for new and existing bots).
 
 ### White labelling 
 <Tabs>
