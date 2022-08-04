@@ -29,6 +29,14 @@ In this guide you will learn how to use and operate [Molten Support](https://dis
 | <code>.[reply\|r] &lt;message&gt</code> | Reply to a modmail thread (this is an anonymous reply) |
 | <code>.[close\|c] <a></a>[time] <a></a>[message]</code> | Close a thread with an optional duration to wait to close the thread (timed close) - `message` will appear on the user's end. This can be 'Have a great day' |
 | <code>.alert [member]</code> | Notify yourself or another member of the next thread messaged received |
+| <code>.move &lt;name&gt</code> | Move a thread to a category by name |
+
+:::tip
+`category_name` can be a shorthand word of a category name.
+
+For example, you can use `.move moderation` to move a thread to the moderation team.
+
+:::
 
 
 ## Snippet Commands
