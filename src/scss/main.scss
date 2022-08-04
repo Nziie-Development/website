@@ -356,6 +356,12 @@ body {
   grid-gap: 0.7rem;
 }
 
+details.customdetails {
+  --docusaurus-details-decoration-color: #5865f2;
+  background-color: inherit;
+  border-color: #7781f4;
+}
+
 .user-card img {
   border-radius: 50%;
   width: 80px;
