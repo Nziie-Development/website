@@ -24,11 +24,3 @@ const PYCHero: React.FC<PYCHeroProps> = ({ title, subtitle, hasLogo = true }) =>
                 <div className="pyc-hero__actions">
                     <PYCButton type="filled inverted wspace" link="/introduction">Introduction</PYCButton>
                     <PYCButton type="filled inverted wspace" link="/services">Services</PYCButton>
-                    <PYCButton type="filled inverted wspace" link="/reviews">Reviews</PYCButton>
-                </div>
-            </div>
-        </section>
-    );
-};
-
-export default PYCHero;
