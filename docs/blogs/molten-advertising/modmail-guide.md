@@ -13,8 +13,6 @@ In this guide you will learn how to use and operate [Molten Support](https://dis
 <details className="customdetails">
 <summary>🔑 Key</summary>
 
-**Access to the suggestions channel**
-
 > `[foo|bar]` - Text separated in brackets means you can use either **foo** or **bar** to get the same command result
 
 > `[arg=value]` - An argument in brackets means this is an **optional argument**, if it's not provided a default value of '**value**' will take it's place
