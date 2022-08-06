@@ -36,6 +36,9 @@ Make sure to **read advertisements** before you issue an advertisement warning (
 
 :::tip
 The commands we use for advertisement warnings are mainly slash commands. **Make sure you're using the latest version of Discord**!
+
+> When warning a member and they reach **2 ad warnings**, warn them with **Server Manager** bot the expiration being **7 days**:
+> `/warn member:id custom_reason:2aw duration: 7d moderator_hidden:True`
 :::
 
 | Usage | Description |
