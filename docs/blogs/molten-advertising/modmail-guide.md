@@ -4,7 +4,7 @@ description: The modmail guide for Molten Advertising (staff only)
 ---
 
 
-:::note Guide Overview
+:::note Overview
 In this guide you will learn how to use and operate [Molten Support](https://discord.gg/gbFJm7D7BJ). 
 
 [Molten Support](https://discord.gg/gbFJm7D7BJ)'s prefix is `.` [**period**]
