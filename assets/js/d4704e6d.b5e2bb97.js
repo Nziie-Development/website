@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknziie_is_a_dev=self.webpackChunknziie_is_a_dev||[]).push([[604],{7192:function(i){i.exports=JSON.parse('{"title":"Blogs","slug":"/category/blogs","permalink":"/category/blogs","navigation":{"previous":{"title":"Introduction","permalink":"/introduction"},"next":{"title":"Modmail Guide","permalink":"/blogs/modmail-guide"}}}')}}]);

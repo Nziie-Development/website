@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkguide_pycord_dev=self.webpackChunkguide_pycord_dev||[]).push([[677],{4765:function(e){e.exports=JSON.parse('{"title":"Pycord Examples","slug":"/category/pycord-examples","permalink":"/category/pycord-examples","navigation":{"previous":{"title":"Reviews","permalink":"/reviews"},"next":{"title":"Discord UI","permalink":"/category/discord-ui"}}}')}}]);
