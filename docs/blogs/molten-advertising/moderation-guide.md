@@ -53,7 +53,7 @@ The commands we use for advertisement warnings are mainly slash commands. **Make
 <details className="customdetails">
 <summary>Command Explanation</summary>
 
-The `/adwarn` command sends a message in the <span className="mention">#🚨︱open-moderation</span> channel and is stored in the database of **Molten's Utilities**. A **warning ID** is random generated ID which is _12 characters long_. This ID is unique to every advertisement warning, users can find this ID at the embed footer of the ad warning message *and* direct message they get. Users can message the modmail bot <span className="mention">@Molten Support#3319</span> to appeal this warning. These warnings are stored for **2 weeks** then removed (expired). Users are notified of this expiration.
+The `/adwarn` command sends a message in the <span className="mention">#🚨︱open-moderation</span> channel and is stored in the database of **Molten's Utilities**. A **warning ID** is random generated ID which is _12 characters long_. This ID is unique to every advertisement warning, users can find this ID at the embed footer of the ad warning message *and* direct message they get. Users can message the modmail bot <span className="mention">@Molten Support#3319</span> to appeal this warning. These warnings are stored for **7 days** then removed (expired). Users are notified of this expiration.
 
 </details> 
 
