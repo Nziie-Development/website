@@ -73,3 +73,17 @@ sidebar_position: 3
     </div>
   </div>
 </div>
+<br/>
+<div class="user-card">
+  <div class="wrap">
+    <div class="img">
+      <img src="img/lolgamera.png"/>
+    </div>
+    <div class="title">
+      <h2>Lolgamera7#7777</h2>
+    </div>
+    <div class="text">
+      Personally i find the service really good the bot Works very well and the developer is friendly the only thing i would say can be improved is the speed of getting the bot fully completed but other than that everything else is superb.
+    </div>
+  </div>
+</div>
