@@ -67,7 +67,7 @@ The commands we use for advertisement warnings are mainly slash commands. **Make
         adwarn
       </DiscordInteraction>
     </div>
-      <DiscordMention highlight={true}>{defaultOptions.profiles.nziie.author}</DiscordMention>
+      <DiscordMention highlight={false}>{defaultOptions.profiles.member.author}</DiscordMention>
       <DiscordEmbed embedTitle="Advertisement Warning" authorIcon="/img/moltenadvertising.gif" authorName="Molten Advertising - Ad Moderation" borderColor="#e74c3c" timestamp="12/24/2022" footerIcon="/img/moltensutilities.png">
         🚩 <strong>Reason:</strong> Lack of description
         <br/>
