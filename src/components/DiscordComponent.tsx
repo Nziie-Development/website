@@ -15,7 +15,7 @@ export const defaultOptions: DiscordMessageOptions = {
 	    roleColor: '#00ffff',
           },
           moltensutilities: {
-            author: 'Molten's Utilities',
+            author: "Molten's Utilities",
             avatar: '/img/moltensutilities.png',
             roleColor: '#5865f2',
             bot: true,
