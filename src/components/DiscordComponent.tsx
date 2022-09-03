@@ -26,6 +26,10 @@ export const defaultOptions: DiscordMessageOptions = {
             roleColor: '#ff0000',
             bot: true,
           },
+          member: {
+            author: 'Member',
+            avatar: 'blue',
+          },
 	},
 };
 
