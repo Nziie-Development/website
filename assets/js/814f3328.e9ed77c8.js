@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkguide_pycord_dev=self.webpackChunkguide_pycord_dev||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Release v1.0.6","permalink":"/blog/v1.0.6"}]}')}}]);
