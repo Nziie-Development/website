@@ -9,17 +9,23 @@ import {
 export const defaultOptions: DiscordMessageOptions = {
 	...DiscordDefaultOptions,
 	profiles: {
-		nziie: {
-			author: 'vNziie--',
-			avatar: '/img/logo.png',
-			roleColor: '#00ffff',
-		},
-        servermanager: {
-            author: 'Server Manager',
-            avatar: '/img/logo.png',
-            roleColor: '#38faff',
+	  nziie: {
+            author: 'vNziie--',
+	    avatar: '/img/logo.png',
+	    roleColor: '#00ffff',
+          },
+          moltensutilities: {
+            author: 'Molten's Utilities',
+            avatar: '/img/moltensutilities.png',
+            roleColor: '#5865f2',
             bot: true,
-        },
+          },
+          moltensupport: {
+            author: 'Molten Support',
+            avatar: '/img/moltensupport.png',
+            roleColor: '#ff0000',
+            bot: true,
+          },
 	},
 };
 
