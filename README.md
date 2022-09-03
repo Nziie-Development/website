@@ -1,1 +1,3 @@
-Website: https://nziie.is-a.dev
+**Website:** https://nziie.is-a.dev
+
+> We don't allow contributions for this website/repository.
