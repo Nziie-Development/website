@@ -60,9 +60,9 @@ The commands we use for advertisement warnings are mainly slash commands. **Make
 
 
 <DiscordComponent>
-  <DiscordMessage author="Molten's Utilities" avatar="/img/moltensutilities.png">
+  <DiscordMessage profile="moltensutilities">
     <div slot="interactions">
-      <DiscordInteraction author="vNziie--" avatar="/img/logo.png" command>
+      <DiscordInteraction profile="nziie" command>
         adwarn
       </DiscordInteraction>
     </div>
