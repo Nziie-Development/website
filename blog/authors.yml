@@ -1,0 +1,10 @@
+nziie:
+  name: Nziie
+  title: Core Developer
+  url: https://nziie.is-a.dev
+  image_url: https://github.com/Nzii3.png
+
+## Copy the format above when adding a new author as a preset author
+# NOTE: A preset author should only be added if someone has contributed or has wrote a blog 3 or more times
+#                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# The 'image_url' property should be provided to ensure the formatting looks good on the blog

@@ -76,3 +76,14 @@ def setup(bot):
   bot.add_cog(MyCog(bot))
 
 ```
+
+import Button from '../../../src/components/Button';
+import {
+  DiscordInteraction,
+  DiscordMessage,
+  DiscordMessages,
+  DiscordEmbed,
+  DiscordEmbedField,
+  DiscordEmbedFields,
+} from "discord-message-components/packages/react";
+import "discord-message-components/packages/react/dist/style.css";
