@@ -17,7 +17,7 @@ const config = {
   trailingSlash: false,
   deploymentBranch:"main",
   organizationName: "Nzii3", // Usually your GitHub org/user name.
-  projectName: "nzii3.github.io", // Usually your repo name.
+  projectName: "website", // Usually your repo name.
   plugins: ["docusaurus-plugin-sass"],
   presets: [ 
     [
