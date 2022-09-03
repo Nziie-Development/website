@@ -10,9 +10,10 @@ import {
   DiscordMessage,
   DiscordMessages,
   DiscordEmbed,
+  DiscordMention,
 } from "discord-message-components/packages/react";
 import "discord-message-components/packages/react/dist/style.css";
-import DiscordComponent from "../../../src/components/DiscordComponent";
+import DiscordComponent, { defaultOptions } from "../../../src/components/DiscordComponent";
 
 :::note Overview
 In this guide, you will learn how to do your **tasks**, **moderate advertisements** efficently, and everything there is to being in the **Molten Advertising Moderation Team**.
@@ -66,18 +67,19 @@ The commands we use for advertisement warnings are mainly slash commands. **Make
         adwarn
       </DiscordInteraction>
     </div>
-      Test content
-      <DiscordEmbed embedTitle="Advertisement Warning" authorIcon="/img/moltenadvertising.gif" authorName="Molten Advertising - Ad Moderation" borderColor="#e74c3c" timestamp="12/24/2022">
+      <DiscordMention highlight={true}>{defaultOptions.profiles.nziie.author}</DiscordMention>
+      <DiscordEmbed embedTitle="Advertisement Warning" authorIcon="/img/moltenadvertising.gif" authorName="Molten Advertising - Ad Moderation" borderColor="#e74c3c" timestamp="12/24/2022" footerIcon="/img/moltensutilities.png">
         🚩 <strong>Reason:</strong> Lack of description
         <br/>
         #️⃣ <strong>Channel:</strong> <span className="mention">#🌎︱unlimited-advertising</span>
         <br/>
         ⚠️ <strong>Total Warnings:</strong> 1
+        <span slot="footer">Warning ID: dL590f79hk38210</span>
       </DiscordEmbed>
   </DiscordMessage>
 </DiscordComponent>
 
-
+<br/>
 
 <details className="customdetails">
 <summary>⭐ Command Breakdown</summary>
