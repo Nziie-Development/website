@@ -65,7 +65,22 @@ The commands we use for advertisement warnings are mainly slash commands. **Make
         adwarn
       </DiscordInteraction>
     </div>
-    ✅ Successfully ad warned that member!
+      Test content
+      <DiscordEmbed
+        embedTitle="Advertisement Warning"
+        authorIcon="/img/moltenadvertising.gif"
+        authorName="Molten Advertising - Ad Moderation"
+        borderColor="#e74c3c"
+        timestamp="12/24/2022"
+        footerIcon="/img/moltensutilities.png"
+        >
+        🚩 <strong>Reason:</strong> Lack of description
+        <br/>
+        #️⃣ <strong>Channel:</strong> <span className="mention">#🌎︱unlimited-advertising
+        <br/>
+        ⚠️ <strong>Total Warnings:</strong> 1
+            <span slot="footer">Warning ID: dL590f79hk38210</span>
+        </DiscordEmbed>
   </DiscordMessage>
 </DiscordComponent>
 
