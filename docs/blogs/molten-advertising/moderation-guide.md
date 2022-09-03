@@ -47,6 +47,17 @@ The commands we use for advertisement warnings are mainly slash commands. **Make
 | <code>>case &lt;warning_id&gt</code> | View an advertisement warning by ID |
 | <code>>delwarn &lt;warning_id&gt</code> | Delete an advertisement warning by ID |
 
+<DiscordComponent>
+  <DiscordMessage author="Molten's Utilities" avatar="/img/moltensutilities.png">
+    <div slot="interactions">
+      <DiscordInteraction author="vNziie--" avatar="/img/logo.png" command>
+        adwarn
+      </DiscordInteraction>
+    </div>
+    ✅ Successfully ad warned that member!
+  </DiscordMessage>
+</DiscordComponent>
+
 <details className="customdetails">
 <summary>⭐ Command Breakdown</summary>
 
