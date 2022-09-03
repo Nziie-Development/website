@@ -59,6 +59,7 @@ The commands we use for advertisement warnings are mainly slash commands. **Make
 | <code>>case &lt;warning_id&gt</code> | View an advertisement warning by ID |
 | <code>>delwarn &lt;warning_id&gt</code> | Delete an advertisement warning by ID |
 
+## Example
 
 <DiscordComponent>
   <DiscordMessage profile="moltensutilities">
@@ -83,6 +84,8 @@ The commands we use for advertisement warnings are mainly slash commands. **Make
 </DiscordComponent>
 
 <br/>
+
+## Breakdown
 
 <details className="customdetails">
 <summary>⭐ Command Breakdown</summary>
