@@ -9,6 +9,7 @@ import {
   DiscordInteraction,
   DiscordMessage,
   DiscordMessages,
+  DiscordEmbed,
 } from "discord-message-components/packages/react";
 import "discord-message-components/packages/react/dist/style.css";
 import DiscordComponent from "../../../src/components/DiscordComponent";
