@@ -3,6 +3,16 @@ title: Moderation Guide
 description: The modmail guide for Molten Advertising (moderation team only)
 ---
 
+import {
+  DiscordButton,
+  DiscordButtons,
+  DiscordInteraction,
+  DiscordMessage,
+  DiscordMessages,
+} from "discord-message-components/packages/react";
+import "discord-message-components/packages/react/dist/style.css";
+import DiscordComponent from "../../../src/components/DiscordComponent";
+
 :::note Overview
 In this guide, you will learn how to do your **tasks**, **moderate advertisements** efficently, and everything there is to being in the **Molten Advertising Moderation Team**.
 :::
