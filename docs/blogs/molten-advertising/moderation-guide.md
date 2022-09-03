@@ -79,7 +79,8 @@ The commands we use for advertisement warnings are mainly slash commands. **Make
         #️⃣ <strong>Channel:</strong> <span className="mention">#🌎︱unlimited-advertising
         <br/>
         ⚠️ <strong>Total Warnings:</strong> 1
-            <span slot="footer">Warning ID: dL590f79hk38210</span>
+        <span slot="footer">Warning ID: dL590f79hk38210</span>
+
         </DiscordEmbed>
   </DiscordMessage>
 </DiscordComponent>
