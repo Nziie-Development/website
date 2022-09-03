@@ -96,6 +96,3 @@ The `/adwarn` command sends a message in the <span className="mention">#🚨︱o
 
 </details>
 
-:::caution Warning
-This guide is still not finished yet!
-:::
