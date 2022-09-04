@@ -18,7 +18,7 @@ I code all Discord bots in Python ([Pycord](https://pycord.dev) - discord.py v2 
 This plan is mainly for small bots and a good amount of features, may be slower compared to the other plans' specs.
 <Tabs>
   <TabItem value="_price" label="Price" default>
-    <strong>($3.80/3.75€) / 3months ($1.2 / month)</strong>
+    <strong>($3.80/3.75€) / 3 months ($1.2 / month)</strong>
   </TabItem>
   <TabItem value="_ram" label="RAM">
     <strong>128 MB</strong>
