@@ -3,6 +3,19 @@ title: Modmail Guide
 description: The modmail guide for Molten Advertising (staff only)
 ---
 
+import {
+  DiscordButton,
+  DiscordButtons,
+  DiscordInteraction,
+  DiscordMessage,
+  DiscordMessages,
+  DiscordEmbed,
+  DiscordMention,
+  DiscordReactions,
+  DiscordReaction,
+} from "discord-message-components/packages/react";
+import "discord-message-components/packages/react/dist/style.css";
+import DiscordComponent, { defaultOptions } from "../../../src/components/DiscordComponent";
 
 :::note Overview
 In this guide you will learn how to use and operate [Molten Support](https://discord.gg/gbFJm7D7BJ). 
@@ -57,69 +70,80 @@ For example, you can use `.move moderation` to move a thread to the moderation t
 
 **6.** Move a thread to the correct team category with `.move <team>`. Please don't handle threads that aren't for your department. 
 
-## Example Situations
+## Example Situation
 
-<details className="customdetails">
-<summary>Situation 1</summary>
+--- 
+➝ <span className="mention">#member-0000</span>
+<DiscordComponent>
+  <DiscordMessage profile="moltensupport">
+    <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
+      hello
+      <span slot="footer">User</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    .s hi
+  </DiscordMessage>
+  <DiscordMessage profile="moltensupport">
+    <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
+      Hello, what can we assist you with today?
+      <span slot="footer">Anonymous Reply</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    .alert
+  </DiscordMessage>
+  <DiscordMessage profile="moltensupport">
+    You will be notified on a new thread message received!
+  </DiscordMessage>
+  <DiscordMessage profile="moltensupport">
+    <DiscordMention highlight={true}>{defaultOptions.profiles.nziie.author}</DiscordMention>
+    <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
+      why can't I send messages in lounge?
+      <span slot="footer">User</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    .s loungerole
+  </DiscordMessage>
+  <DiscordMessage profile="moltensupport">
+    <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
+      You can’t talk in the main lounge because you don’t have the correct role. Please read <a href="#">this</a> announcement.
+      <span slot="footer">Anonymous Reply</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="moltensupport">
+    <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
+      okay, thanks that's all for today.
+      <span slot="footer">User</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    .s thanks
+  </DiscordMessage>
+  <DiscordMessage profile="moltensupport">
+    <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
+      Thanks for contacting Molten Advertising support staff! We hope you had a good experience and that we full-filled your request!
+      <br/>
+      <br/>
+      <blockquote>This thread will close <strong>in 10 minutes</strong>. Please note that replying to this message will cancel the timed closure. <strong>Please only reply to this message if you need more help.</strong></blockquote>
+      <span slot="footer">Anonymous Reply</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    .close 10m
+  </DiscordMessage>
+  <DiscordMessage profile="moltensupport">
+    🔒 This thread will close <span className="timestamp">in 10 minutes</span> if the user doesn't reply within that time limit.
+  </DiscordMessage>
+  <DiscordMessage profile="wumpus">
+    <DiscordEmbed borderColor="#5865f2">
+      This thread has been closed.
+    </DiscordEmbed>
+  </DiscordMessage>
+</DiscordComponent>
 
-> **User:** Hey, I'd like to report a member
-
-*Runs `.snippet report`*
-
-> **You:** 
-To report a member, please use this format:
-```
-User ID:
-Reason:
-Proof:
-```
-
-> **User:**
-User ID: 1234567890123456789
-Reason: DM advertising
-Proof: *(attachment)*
-
-`...`
-
-</details>
-
-<details className="customdetails">
-<summary>Situation 2</summary>
-
-> **User:** Can I partner?
-
-*Runs `.move partnership`*
-
-`...`
-
-</details>
-
-<details className="customdetails">
-<summary>Situation 3</summary>
-
-> **User:** Why can't I access #lounge?
-
-*Runs `.snippet loungerole`*
-
-> **You:** You can’t talk in the main lounge because you don’t have the correct role. Please read [this](#example-situations) announcement.
-
-> **User:** thanks!
-
-*Runs `.snippet morehelp`*
-
-> **You:** Is there anything else I can help you with today?
-
-> **User:** No, thanks
-
-*Runs `.snippet thanks`*
-
-`...`
-
-*Runs `.close 10m`*
-
-`...`
-
-</details>
+---
 
 ## Ready to handle threads?
-Message [vNziie--#7777](https://discord.com/users/550476809280421903) on Discord and make sure to say you've read the modmail guide!
+Message <span className="mention">@vNziie--</span> on Discord and make sure to say you've read the modmail guide!

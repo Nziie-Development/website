@@ -387,15 +387,21 @@ details.customdetails {
 }
 
 .mention {
-  background: #5865f2;
+  background: #414675;
   padding-left: 3px;
   padding-right: 3px;
-  border-radius: 4px;
-  transition: all 0.25s ease;
+  border-radius: 3px;
+  transition: all 0.15s ease;
   &:hover {
-    background:#7781f4;
-    color: #5865f2;
+    background:#5865f2;
   }
+}
+
+.timestamp {
+  background: #42464d;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 3px;
 }
 
 @font-face{font-family:Ginto;font-weight:300;src:url(/static/fonts/ginto/ginto300.woff) format("woff")}

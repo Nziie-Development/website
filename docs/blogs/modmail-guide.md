@@ -59,40 +59,104 @@ For example, you can use `.move moderation` to move a thread to the moderation t
 
 ## Example Situations
 
-<details className="customdetails">
-<summary>Situation 1</summary>
+--- 
+➝ <span className="mention">#member-0000</span>
+<DiscordComponent>
+  <DiscordMessage profile="modmail">
+    <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
+      hello
+      <span slot="footer">User</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    !snippet hi
+  </DiscordMessage>
+  <DiscordMessage profile="modmail">
+    <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
+      Hello, what can we assist you with today?
+      <span slot="footer">Anonymous Reply</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    !alert
+  </DiscordMessage>
+  <DiscordMessage profile="modmail">
+    You will be notified on a new thread message received!
+  </DiscordMessage>
+  <DiscordMessage profile="modmail">
+    <DiscordMention highlight={true}>{defaultOptions.profiles.nziie.author}</DiscordMention>
+    <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
+      i would like to report a member
+      <span slot="footer">User</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    !snippet report
+  </DiscordMessage>
+  <DiscordMessage profile="modmail">
+    <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
+      Please fill out the format below to report a member
+      <br/>
+      <code>
+        User ID:
+        <br/>
+        Reason:
+        <br/>
+        Proof:
+      </code>
+      <span slot="footer">Anonymous Reply</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="modmail">
+    <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
+      User ID: 12345678901234567
+      <br/>
+      Reason: DM advertising
+      Proof:
+      <span slot="footer">User</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    !reply Your report will be investigated and appropriate action will be taken. Is there anything else we can help you with?
+  </DiscordMessage>
+  <DiscordMessage profile="modmail">
+    <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
+      Your report will be investigated and appropriate action will be taken. Is there anything else we can help you with?
+      <span slot="footer">Anonymous Reply</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="modmail">
+    <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
+      thanks that's all for today.
+      <span slot="footer">User</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    !snippet thanks
+  </DiscordMessage>
+  <DiscordMessage profile="modmail">
+    <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
+      Thanks for contacting (server) support staff! We hope you had a good experience and that we full-filled your request!
+      <br/>
+      <br/>
+      <blockquote>This thread will close <strong>in 10 minutes</strong>. Please note that replying to this message will cancel the timed closure. <strong>Please only reply to this message if you need more help.</strong></blockquote>
+      <span slot="footer">Anonymous Reply</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    .close 10m
+  </DiscordMessage>
+  <DiscordMessage profile="modmail">
+    🔒 This thread will close <span className="timestamp">in 10 minutes</span> if the user doesn't reply within that time limit.
+  </DiscordMessage>
+  <DiscordMessage profile="wumpus">
+    <DiscordEmbed borderColor="#5865f2">
+      This thread has been closed.
+    </DiscordEmbed>
+  </DiscordMessage>
+</DiscordComponent>
 
-> **User:** Hey, I'd like to report a member
-
-*Runs `<prefix>snippet report`*
-
-> **You:** 
-To report a member, please use this format:
-```
-User ID:
-Reason:
-Proof:
-```
-
-> **User:**
-User ID: 1234567890123456789
-Reason: DM advertising
-Proof: *(attachment)*
-
-`...`
-
-</details>
-
-<details className="customdetails">
-<summary>Situation 2</summary>
-
-> **User:** Can I partner?
-
-*Runs `<prefix>move partnership`*
-
-`...`
-
-</details>
+---
 
 ## Moving Threads
 

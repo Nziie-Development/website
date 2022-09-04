@@ -35,6 +35,10 @@ export const defaultOptions: DiscordMessageOptions = {
             avatar: 'red',
             bot: true,
           },
+          wumpus: {
+            author: 'Wumpus',
+            avatar: '/img/wumpus.png'
+          }
 	},
 };
 

@@ -24,7 +24,7 @@ Your tasks as a member of the **Moderation Team** consists of (but not limited t
 
   - Issue **10** <u>valid</u> advertisement warnings
     - *Checks for advertisement warnings are done every* **Saturday Morning PST**
-  - Moderate <span style={{color: '#5865f2'}}>#💬︱lounge</span>
+  - Moderate <span className="mention">#💬︱lounge</span>
   - Handle [Modmail](./modmail-guide.md) **threads**
   - Handle [Modmail](./modmail-guide.md) **reports** (and other reports)
 
