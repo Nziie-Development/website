@@ -38,7 +38,13 @@ export const defaultOptions: DiscordMessageOptions = {
           wumpus: {
             author: 'Wumpus',
             avatar: '/img/wumpus.png'
-          }
+          },
+          wumpusmanager: {
+            author: 'Wumpus Manager',
+            avatar: '/img/wumpusmanager.png',
+            bot: true,
+            roleColor: '#5865f2'
+          },
 	},
 };
 
