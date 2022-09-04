@@ -101,7 +101,7 @@ You can move threads to other modmail categories with `<prefix>move <category_na
 <br/>
 <DiscordComponent>
   <DiscordMessage profile="nziie">
-    <blockquote> Make sure to use your modmail bot's prefix!
+    <blockquote> Make sure to use your modmail bot's prefix!</blockquote>
   </DiscordMessage>
   <DiscordMessage profile="nziie">
     !move moderation
