@@ -99,10 +99,6 @@ Proof: *(attachment)*
 You can move threads to other modmail categories with `<prefix>move <category_name>`. `category_name` can be a shorthand name of a category name. For example:
 *(example prefix: `!`)*
 <br/>
-<DiscordComponent>
-  <DiscordMessage profile="nziie">
-    <blockquote> Make sure to use your modmail bot's prefix!</blockquote>
-  </DiscordMessage>
   <DiscordMessage profile="nziie">
     !move moderation
   </DiscordMessage>
@@ -120,6 +116,7 @@ You can move threads to other modmail categories with `<prefix>move <category_na
   </DiscordMessage>
 </DiscordComponent>
 <br/>
+
 :::note
 This guide is not completely done yet as more feature to modmail will be added eventually.
 :::
