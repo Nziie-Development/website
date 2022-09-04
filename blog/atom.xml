@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nziie.is-a.dev/blog</id>
     <title>Nziie Blog</title>
-    <updated>2022-08-26T00:00:00.000Z</updated>
+    <updated>2022-09-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nziie.is-a.dev/blog"/>
     <subtitle>Nziie Blog</subtitle>
     <icon>https://nziie.is-a.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Wumpus Advertisements Mod Guide]]></title>
+        <id>wa-moderation</id>
+        <link href="https://nziie.is-a.dev/blog/wa-moderation"/>
+        <updated>2022-09-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Tasks]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="tasks">Tasks<a class="hash-link" href="#tasks" title="Direct link to heading">​</a></h2><hr><ul><li>Send 10 messages in the main server</li><li>Issue <strong>5</strong> valid advertisements warnings</li></ul>]]></content>
+        <author>
+            <name>Nziie</name>
+            <uri>https://nziie.is-a.dev</uri>
+        </author>
+        <category label="Guides" term="Guides"/>
+        <category label="Wumpus Advertisements" term="Wumpus Advertisements"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[First blog post]]></title>
         <id>first</id>

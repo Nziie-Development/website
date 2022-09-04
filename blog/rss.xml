@@ -4,10 +4,20 @@
         <title>Nziie Blog</title>
         <link>https://nziie.is-a.dev/blog</link>
         <description>Nziie Blog</description>
-        <lastBuildDate>Fri, 26 Aug 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Sep 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Wumpus Advertisements Mod Guide]]></title>
+            <link>https://nziie.is-a.dev/blog/wa-moderation</link>
+            <guid>wa-moderation</guid>
+            <pubDate>Sun, 04 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Tasks]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="tasks">Tasks<a class="hash-link" href="#tasks" title="Direct link to heading">​</a></h2><hr><ul><li>Send 10 messages in the main server</li><li>Issue <strong>5</strong> valid advertisements warnings</li></ul>]]></content:encoded>
+            <category>Guides</category>
+            <category>Wumpus Advertisements</category>
+        </item>
         <item>
             <title><![CDATA[First blog post]]></title>
             <link>https://nziie.is-a.dev/blog/first</link>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkguide_pycord_dev=self.webpackChunkguide_pycord_dev||[]).push([[758],{5828:function(e){e.exports=JSON.parse('{"label":"Wumpus Advertisements","permalink":"/blog/tags/wumpus-advertisements","allTagsPath":"/blog/tags","count":1}')}}]);
