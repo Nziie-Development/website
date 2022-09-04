@@ -2,6 +2,17 @@
 title: Modmail Guide
 description: A modmail guide reference to all my clients whom have a modmail bot
 ---
+import {
+  DiscordButton,
+  DiscordButtons,
+  DiscordInteraction,
+  DiscordMessage,
+  DiscordMessages,
+  DiscordEmbed,
+  DiscordMention,
+} from "discord-message-components/packages/react";
+import "discord-message-components/packages/react/dist/style.css";
+import DiscordComponent, { defaultOptions } from "../../src/components/DiscordComponent";
 
 :::note Overview
 
@@ -87,19 +98,28 @@ Proof: *(attachment)*
 
 You can move threads to other modmail categories with `<prefix>move <category_name>`. `category_name` can be a shorthand name of a category name. For example:
 *(example prefix: `!`)*
-```txt title="Moves to the Moderation category"
-!move moderation
-```
-```txt title="Moves to the Partnership category"
-!move partnership
-```
-```txt title="Moves to the Management category"
-!move management
-```
-```txt title="Moves to the Human Resources category"
-!move human
-```
-
+<br/>
+<DiscordComponent>
+  <DiscordMessage profile="nziie">
+    <blockquote> Make sure to use your modmail bot's prefix!
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    !move moderation
+  </DiscordMessage>
+  <DiscordMessage profile="modmail">
+    ✅ Successfully moved this thread to <code>Moderation Team</code>!
+  </DiscordMessage>
+</DiscordComponent>
+<br/>
+<DiscordComponent>
+  <DiscordMessage profile="nziie">
+    !move partnership
+  </DiscordMessage>
+  <DiscordMessage profile="modmail">
+    ✅ Successfully moved this thread to <code>Partnership Team</code>!
+  </DiscordMessage>
+</DiscordComponent>
+<br/>
 :::note
 This guide is not completely done yet as more feature to modmail will be added eventually.
 :::
