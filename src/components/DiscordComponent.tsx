@@ -30,6 +30,11 @@ export const defaultOptions: DiscordMessageOptions = {
             author: 'Member',
             avatar: 'blue',
           },
+          modmail: {
+            author: 'Modmail',
+            avatar: 'red',
+            bot: true,
+          },
 	},
 };
 
