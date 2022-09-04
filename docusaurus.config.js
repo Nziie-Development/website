@@ -63,7 +63,42 @@ const config = {
     },
     footer: {
       style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} Nziie Development, All rights reserved.`,
+      links: [
+        {
+          title: "Development",
+          items: [
+            {
+              label: "Discord",
+              href: "https://discord.gg/b9GPHgJ6TK"
+            },
+            {
+              label: 'Services',
+              to: '/services'
+            },
+            {
+              label: 'Reviews',
+              to: '/reviews'
+            }
+          ]
+        },
+      {
+        title: "Other",
+        items: [
+          {
+            label: "Source",
+            href: "https://github.com/Nzii3/website"
+          },
+          {
+            label: "Blog",
+            to: "/blog"
+          },
+          {
+            label: "FAQ",
+            to: "/faq"
+          },
+        ]
+      },
+      ]
     },
     prism: {
       defaultLanguage: "python",
