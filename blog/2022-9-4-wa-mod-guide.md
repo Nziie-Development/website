@@ -48,7 +48,7 @@ Please make sure to use command flags correctly and use commands correctly.
 | ----- | ----- | ----- |
 | <code>?r</code> | The reason for the warning/action | <code>?r DM advertising</code>
 | <code>?s</code> | The severity for the warning/action | <code>?s low</code> |
-| <code>?c</code> | The channel (mainly meant for ad warnings) 
+| <code>?c</code> | The channel (mainly meant for ad warnings) | <code>?c #unlimited-advertising</code> |
 
 </details>
 
