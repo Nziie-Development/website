@@ -72,7 +72,7 @@ Please make sure to use command flags correctly and use commands correctly.
     .warn <DiscordMention highlight={false}>{defaultOptions.profiles.member.author}</DiscordMention> ?s low ?r Spam
   </DiscordMessage>
   <DiscordMessage profile="wumpusmanager">
-    <DiscordMention highlight={false}>{defaultOptions.profiles.member.author}</DiscordMention> has been warned <DiscordMention highlight={true}>{defaultOptions.profiles.nziie.author}</DiscordMention> for a severity of: <code>Low</code>
+    <DiscordMention highlight={false}>{defaultOptions.profiles.member.author}</DiscordMention> has been warned by <DiscordMention highlight={true}>{defaultOptions.profiles.nziie.author}</DiscordMention> for a severity of: <code>Low</code>
     <br/>
     They now have <code>1</code> warning(s) in that category, and <code>1</code> total warnings.
   </DiscordMessage>
