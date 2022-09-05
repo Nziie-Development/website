@@ -29,6 +29,19 @@ import DiscordComponent, { defaultOptions } from "../src/components/DiscordCompo
 ---
 Advertisement warnings are our form of verbal warnings for advertisements. 
 
+### Example
+---
+<DiscordComponent>
+  <DiscordMessage profile="nziie">
+    .warn <DiscordMention highlight={false}>{defaultOptions.profiles.member.author}</DiscordMention> ?s aw ?c <span className="mention">#🏠・community-servers</span> ?r Lack of description
+  </DiscordMessage>
+  <DiscordMessage profile="wumpusmanager">
+    <DiscordMention highlight={false}>{defaultOptions.profiles.member.author}</DiscordMention> has been warned <DiscordMention highlight={true}>{defaultOptions.profiles.nziie.author}</DiscordMention> for a severity of: <code>Advertisement Warning</code>
+    <br/>
+    They now have <code>1</code> warning(s) in that category, and <code>1</code> total warnings.
+  </DiscordMessage>
+</DiscordComponent>
+
 ## Moderation
 ---
 Please make sure to use command flags correctly and use commands correctly.
