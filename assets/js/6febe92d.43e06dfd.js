@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkguide_pycord_dev=self.webpackChunkguide_pycord_dev||[]).push([[924],{9153:function(e){e.exports=JSON.parse('{"title":"Showcase","slug":"/category/showcase","permalink":"/category/showcase","navigation":{"previous":{"title":"Subclassing","permalink":"/pycord-examples/subclassing"},"next":{"title":"Modmail","permalink":"/showcase/modmail"}}}')}}]);
