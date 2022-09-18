@@ -87,3 +87,17 @@ sidebar_position: 3
     </div>
   </div>
 </div>
+<br/>
+<div class="user-card">
+  <div class="wrap">
+    <div class="img">
+      <img src="img/sybetjeh.gif"/>
+    </div>
+    <div class="title">
+      <h2>sybetjeh.#1221</h2>
+    </div>
+    <div class="text">
+      Nziie took a bit to deliver, but the end result is amazing. The bots look professional for such a low price, and it works well!
+    </div>
+  </div>
+</div>
