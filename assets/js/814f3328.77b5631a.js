@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkguide_pycord_dev=self.webpackChunkguide_pycord_dev||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Wumpus Advertisements Mod Guide","permalink":"/blog/wa-moderation"},{"title":"First blog post","permalink":"/blog/first"}]}')}}]);
