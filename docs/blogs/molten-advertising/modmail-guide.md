@@ -58,7 +58,7 @@ For example, you can use `.move moderation` to move a thread to the moderation t
 | <code>.[snippet\|s] remove &lt;name&gt </code> | (Management Only) Remove/delete a snippet |
 
 ## Modmail Rules
-**1.** When a thread is made, all online staff will get pinged. **To claim a thread, simply say 'mine'**, other staff should obey that you claimed the thread. If you’re inactive in a thread for a few hours when a user responds, they have the right to 'overclaim.'
+**1.** When a thread is made, all online staff will get pinged. **To claim a thread, use the `.claim` command**, other staff should obey that you claimed the thread. If you’re inactive in a thread for a few hours when a user responds, they have the right to 'overclaim.'
 
 **2.** There is such a thing as "over-claiming" where you claim a claimed thread. **You can only overclaim if you are a management member and need your serious intervention**, you were asked by the person who originally claimed the ticket to claim or if the person who claimed it isn't responding to your ping after 6 hours. Overclaim for no good reason will get you a strike or your modmail permissions revoked for a duration of time.
 
@@ -69,6 +69,22 @@ For example, you can use `.move moderation` to move a thread to the moderation t
 **5.** If someone reported a member, you aren't supposed to be sharing the actions. Use the proper snippets according to the situation. You may not tell a thread user **any** actions against anyone. If you do this, you may receive a staff strike or your modmail license will be **revoked**.
 
 **6.** Move a thread to the correct team category with `.move <team>`. Please don't handle threads that aren't for your department. 
+
+## Claiming
+
+When a thread is created, you have the ability to claim it as yours so no other staff member can respond to the thread but you.
+
+| Usage | Description |
+| -------- | -------- |
+| <code>.claim</code> | Claim a thread |
+| <code>.unclaim</code> | Unclaim a thread |
+| <code>.overclaim</code> | <strong>(Management Only)</strong> Over claim a thread |
+
+:::caution Warning
+
+Management can only over claim to prevent abuse. It may be released to all of the Modmail Team eventually.
+
+:::
 
 ## Example Situation
 
