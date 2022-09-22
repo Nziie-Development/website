@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkguide_pycord_dev=self.webpackChunkguide_pycord_dev||[]).push([[604],{7192:function(e){e.exports=JSON.parse('{"title":"Blogs","slug":"/category/blogs","permalink":"/category/blogs","navigation":{"previous":{"title":"Reviews","permalink":"/reviews"},"next":{"title":"Modmail Guide","permalink":"/blogs/modmail-guide"}}}')}}]);
