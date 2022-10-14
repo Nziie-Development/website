@@ -78,10 +78,12 @@
   --ifm-color-primary-lightest: #b4baf9;
 }
 
-
+p {
+  font-size: 1.05rem;
+}
 
 html {
-  font-family: sentro.token-get('global-family');
+  font-family: Whitney;
   font-weight: sentro.token-get('global-weight');
 }
 
@@ -386,12 +388,41 @@ details.customdetails {
   grid-row: 3;
 }
 
+.discord-link {
+  color: #1c97da;
+  text-shadow: none;
+  display: inline-block;
+  position: relative;
+  &:hover {
+    color: #1c97da
+  }
+  &::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.25px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+    #1c97da;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  &:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+}
+
 .mention {
   background: #414675;
   padding-left: 3px;
   padding-right: 3px;
   border-radius: 3px;
   transition: all 0.15s ease;
+  font-weight:500;
   &:hover {
     background:#5865f2;
   }
@@ -402,6 +433,61 @@ details.customdetails {
   padding-left: 3px;
   padding-right: 3px;
   border-radius: 3px;
+}
+
+.box {
+  display: inline-block;
+  font-family: Whitney;
+  border: 1.80px solid rgba(0, 0, 0, 0.589);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: rgba(41,43,47,255);
+  border-radius: 5px;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  font-size: 98%;
+  .title {
+    font-family: ('Saira', monospace);
+    font-size: 1.20rem;
+  }
+  // &:hover {
+  //   transform: translateY(-2px);
+  //   box-shadow: black 0px 5px 15px;
+  // }
+}
+
+.box.no-background {
+  background-color: inherit;
+}
+
+.box.animation {
+  transition: all 0.5s ease;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: black 0px 5px 15px;
+  }
+}
+
+.box.blurple {
+  border: 1.75px solid #5865f2;
+}
+
+.box.red {
+  border: 1.75px solid #e74c3c;
+}
+
+.box.green {
+  border: 1.75px solid #2ecc71;
+}
+
+.box.yellow {
+  border: 1.75px solid #fee65c;
+}
+
+.box.blue {
+  border: 1.75px solid #1c97da;
 }
 
 @font-face{font-family:Ginto;font-weight:300;src:url(/static/fonts/ginto/ginto300.woff) format("woff")}

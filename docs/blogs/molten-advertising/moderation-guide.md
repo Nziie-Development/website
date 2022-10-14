@@ -15,9 +15,12 @@ import {
 import "discord-message-components/packages/react/dist/style.css";
 import DiscordComponent, { defaultOptions } from "../../../src/components/DiscordComponent";
 
-:::note Overview
-In this guide, you will learn how to do your **tasks**, **moderate advertisements** efficently, and everything there is to being in the **Molten Advertising Moderation Team**.
-:::
+<div className="box blurple no-background">
+<div className="title">
+Overview
+</div>
+In this guide, you will learn how to do your <strong>tasks</strong>, <strong>moderate advertisements</strong> efficently, and everything there is to being in the <strong>Molten Advertising Moderation Team</strong>.
+</div>
 
 ## Tasks
 Your tasks as a member of the **Moderation Team** consists of (but not limited to):
@@ -30,9 +33,10 @@ Your tasks as a member of the **Moderation Team** consists of (but not limited t
 
 ## Advertisement Warnings
 
-:::caution Warning
-Make sure to **read advertisements** before you issue an advertisement warning (ad warn) and **don't** issue false warnings! This can result in a strike or a removal from the Moderation Team
-:::
+<div className="box yellow animation no-background">
+Make sure to <strong>read advertisements</strong> before you issue an advertisement warning (ad warn) and <strong>DO NOT</strong> issue false warnings! This can result in a strike or a removal from the Moderation Team
+</div>
+
 <details className="customdetails">
 <summary>🔑 Key</summary>
 
@@ -46,12 +50,12 @@ Make sure to **read advertisements** before you issue an advertisement warning (
 
 ### Commands
 
-:::tip
-The commands we use for advertisement warnings are mainly slash commands. **Make sure you're using the latest version of Discord**!
+<div className="box green no-background">
+The commands we use for advertisement warnings are mainly slash commands. <strong>Make sure you're using the latest version of Discord</strong>!
 
-> When warning a member and they reach **2 ad warnings**, warn them with **Server Manager** bot the expiration being **7 days**:
-> `/warn member:id custom_reason:2aw duration: 7d moderator_hidden:True`
-:::
+When warning a member and they reach **2 ad warnings**, warn them with **Server Manager** bot the expiration being **7 days**:
+<blockquote><span className="timestamp">/warn member:id custom_reason:2aw duration: 7d moderator_hidden:True</span></blockquote>
+</div>
 
 | Usage | Description |
 | ----------------------- | ----------- |

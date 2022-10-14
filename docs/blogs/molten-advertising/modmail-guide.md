@@ -17,12 +17,13 @@ import {
 import "discord-message-components/packages/react/dist/style.css";
 import DiscordComponent, { defaultOptions } from "../../../src/components/DiscordComponent";
 
-:::note Overview
-In this guide you will learn how to use and operate [Molten Support](https://discord.gg/gbFJm7D7BJ). 
-
-[Molten Support](https://discord.gg/gbFJm7D7BJ)'s prefix is `.` [**period**]
-:::
-
+<div className="box blurple no-background">
+<div className="title">
+Overview
+</div>
+In this guide you will learn how to use and operate <a href="https://discord.gg/gbFJm7D7BJ">Molten Support</a>. <a href="https://discord.gg/gbFJm7D7BJ">Molten Support</a>'s prefix is <span className="timestamp">.</span> [<strong>period</strong>]
+<br/>
+<br/>
 <details className="customdetails">
 <summary>🔑 Key</summary>
 
@@ -33,21 +34,22 @@ In this guide you will learn how to use and operate [Molten Support](https://dis
 > `<arg>` - An argument in less and greater than signs means that this is a **required argument**, it must be provided or the command will fail
 
 </details>
+</div>
+
 
 ## Modmail Commands
 |     Usage               |  Description   |
 | ----------------------- | ----------- |
-| <code>.[reply\|r] &lt;message&gt</code> | Reply to a modmail thread (this is an anonymous reply) |
-| <code>.[close\|c] <a></a>[time] <a></a>[message]</code> | Close a thread with an optional duration to wait to close the thread (timed close) - `message` will appear on the user's end. This can be 'Have a great day' |
-| <code>.alert [member]</code> | Notify yourself or another member of the next thread messaged received |
-| <code>.move &lt;name&gt</code> | Move a thread to a category by name |
+| <span className="mention">.[reply\|r] &lt;message&gt</span> | Reply to a modmail thread (this is an anonymous reply) |
+| <span className="mention">.[close\|c] <a></a>[time] <a></a>[message]</span> | Close a thread with an optional duration to wait to close the thread (timed close) - `message` will appear on the user's end. This can be 'Have a great day' |
+| <span className="mention">.alert [member]</span> | Notify yourself or another member of the next thread messaged received |
+| <span className="mention">.move &lt;name&gt</span> | Move a thread to a category by name |
 
-:::tip
-`category_name` can be a shorthand word of a category name.
+<div className="box green no-background" style={{'padding-bottom': '0'}}>
+<span className="timestamp">category_name</span> can be a shorthand word of a category name.
 
-For example, you can use `.move moderation` to move a thread to the moderation team.
-
-:::
+For example, you can use <span className="mention">.move moderation</span> to move a thread to the moderation team.
+</div>
 
 
 ## Snippet Commands
@@ -80,11 +82,9 @@ When a thread is created, you have the ability to claim it as yours so no other 
 | <code>.unclaim</code> | Unclaim a thread |
 | <code>.overclaim</code> | <strong>(Management Only)</strong> Over claim a thread |
 
-:::caution Warning
-
+<div className="box yellow no-background">
 Management can only over claim to prevent abuse. It may be released to all of the Modmail Team eventually.
-
-:::
+</div>
 
 ## Example Situation
 
