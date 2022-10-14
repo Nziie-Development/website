@@ -2,6 +2,19 @@
 title: Buttons
 description: Discord buttons in Pycord
 ---
+
+import {
+  DiscordButton,
+  DiscordButtons,
+  DiscordInteraction,
+  DiscordMessage,
+  DiscordMessages,
+  DiscordEmbed,
+  DiscordMention,
+} from "discord-message-components/packages/react";
+import "discord-message-components/packages/react/dist/style.css";
+import DiscordComponent, { defaultOptions } from "../../../src/components/DiscordComponent";
+
 I recommend [subclassing](../subclassing) here!
 
 :::note
@@ -42,15 +55,13 @@ class Confirm(discord.ui.View):
 
     @discord.ui.button(label="Yes", style=discord.ButtonStyle.green)
     async def confirm(self, button, interaction):
-      for child in self.children:
-        child.disabled = True
+      self.disable_all_items()
       self.value = "Yes"
       self.stop()
 
     @discord.ui.button(label="No", style=discord.ButtonStyle.red)
     async def cancel(self, button, interaction):
-      for child in self.children:
-        child.disabled = True
+      self.disable_all_items()
       self.value = "No"
       self.stop()
     
@@ -77,13 +88,47 @@ def setup(bot):
 
 ```
 
-import Button from '../../../src/components/Button';
-import {
-  DiscordInteraction,
-  DiscordMessage,
-  DiscordMessages,
-  DiscordEmbed,
-  DiscordEmbedField,
-  DiscordEmbedFields,
-} from "discord-message-components/packages/react";
-import "discord-message-components/packages/react/dist/style.css";
+## Output
+
+<DiscordComponent>
+  <DiscordMessage profile="nziie">
+    !confirm
+  </DiscordMessage>
+  <DiscordMessage profile="bot">
+  Would you like to confirm?
+  <div slot="actions">
+    <DiscordButtons>
+      <DiscordButton type="success">Yes</DiscordButton>
+      <DiscordButton type="danger">No</DiscordButton>
+    </DiscordButtons>
+    </div>
+  </DiscordMessage>
+</DiscordComponent>
+<br/>
+<span className="timestamp">When clicked 'Yes' is clicked...</span>
+<br/>
+<br/>
+<DiscordComponent>
+  <DiscordMessage profile="nziie">
+    !confirm
+  </DiscordMessage>
+  <DiscordMessage profile="bot" edited>
+  You confirmed with Yes!
+  <div slot="actions">
+    <DiscordButtons>
+      <DiscordButton type="success" disabled>Yes</DiscordButton>
+      <DiscordButton type="danger" disabled>No</DiscordButton>
+    </DiscordButtons>
+    </div>
+  </DiscordMessage>
+</DiscordComponent>
+
+<br/>
+<div className="box blurple no-background">
+<div className="title">
+Helpful Documentation
+</div>
+<li><a href="https://docs.pycord.dev/en/master/api.html#discord.ui.Button" className="discord-link">Button Documentation</a></li>
+<li><a href="https://docs.pycord.dev/en/master/api.html#discord.ui.View" className="discord-link">View Documentation</a></li>
+<li><a href="https://docs.pycord.dev/en/master/api.html#discord.ButtonStyle" className="discord-link">Button Style Documentation</a></li>
+</div>

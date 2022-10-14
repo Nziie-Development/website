@@ -29,3 +29,11 @@ async def color(ctx):
   view = Select(author=ctx.author)
   await ctx.send("Select your favorite color from the dropdown below!", view=view)
 ```
+
+<div className="box blurple no-background">
+<div className="title">
+Helpful Documentation
+</div>
+<li><a href="https://docs.pycord.dev/en/master/api.html#discord.ui.Select" className="discord-link">Selects Documentation</a></li>
+<li><a href="https://docs.pycord.dev/en/master/api.html#discord.ui.View" className="discord-link">View Documentation</a></li>
+</div>
