@@ -105,7 +105,7 @@ def setup(bot):
   </DiscordMessage>
 </DiscordComponent>
 <br/>
-<span className="timestamp">When clicked 'Yes' is clicked...</span>
+<span className="timestamp">When 'Yes' is clicked...</span>
 <br/>
 <br/>
 <DiscordComponent>
