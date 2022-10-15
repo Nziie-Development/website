@@ -31,4 +31,4 @@ Source code requests can be denied at any time without reason; source code for m
 ⭐ <span className="rulenum">1.</span> You <span className="rulenum" style={{'font-size': '120%'}}>MUST</span> keep credit in the code in some commands/features in the source code you are given. If you remove ANY credit whatsoever you will no longer be able to recieve source code and will be removed from the development server with any services purchased being canceled. The source code you are given may be connected to an API and can detect if credit was removed, and <u>if credit is removed the bot will not start or the feature(s) won't work.</u>
 <br/>
 <br/>
-<span className="rulenum">1.</span> If you leave the server at any time you will recieve the consequences of rule 1
+<span className="rulenum">2.</span> If you leave the server at any time you will recieve the consequences of rule 1
