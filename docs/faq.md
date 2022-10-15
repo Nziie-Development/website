@@ -2,9 +2,9 @@
 title: FAQ
 ---
 
-:::tip
-In this page, **Frequently Asked Questions** will be answered.
-:::
+<div className="box blurple animation no-background">
+In this page, <strong>Frequently Asked Questions</strong> will be answered.
+</div>
 
 ## Music Commands
 

@@ -85,8 +85,8 @@ const config = {
         title: "Other",
         items: [
           {
-            label: "Source",
-            href: "https://github.com/Nzii3/website"
+            label: "Terms of Use",
+            to: "/terms"
           },
           {
             label: "Blog",

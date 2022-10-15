@@ -78,14 +78,9 @@ This plan is great for all complicated bots, much faster than all the other plan
 </div>
 <br/>
 
-:::info
-Please make sure to let me know what type of bot you want when you purchase by opening a ticket in my [development server](/discord.html)!
-:::
-
-
-:::note
-You are not required to provide all personal information to us on register page. Just First name (you can enter there nickname), Email address, Discord Username with tag form fields are required on the checkout (register) page.
-:::
+<div className="box yellow animation no-background">
+Please make sure to let me know what type of bot you want when you purchase by opening a ticket in my <a href="https://discord.com/b9GPHgJ6TK" className="discord-link">development server</a>! You are not required to provide all personal information to us on register page. Just First name (you can enter there nickname), Email address, Discord Username with tag form fields are required on the checkout (register) page.
+</div>
 
 
 ## Extra Options
@@ -103,3 +98,14 @@ Here you can find list of extra (configurable options). If you are interested in
   </TabItem>  
 </Tabs>
 
+## Source Code
+As of <span className="timestamp">10/15/2022</span>, we are now giving source code for specific features only. Prices starting at **$10** and up for source code, price can vary on feature complexity.
+
+<div className="box red no-background">
+  We don't give source code for <strong>Modmail features</strong>, <strong>Music features</strong>, or other features that break Discord's Terms of Service or Community Guidelines. <h4>🛑 We have the right to deny any source code request</h4>
+</div>
+
+Contact me on my [support server](./discord.html) in order to get a price estimate and to request source code.
+
+
+<h3>🛑 We have the right to deny any source code request</h3>
