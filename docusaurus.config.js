@@ -37,7 +37,7 @@ const config = {
 
   themeConfig: {
     announcementBar: {
-      content: `Check out my <a href="/blog/python-classes>new blog</a>!`,
+      content: `Check out my <a href="/blog/python-classes">new blog</a>!`,
     },
     docs: {
       sidebar: {
