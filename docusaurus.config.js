@@ -36,6 +36,9 @@ const config = {
   ],
 
   themeConfig: {
+    announcementBar: {
+      content: `Check out my [new blog](https://nziie.is-a.dev/blog/python-classes)!`,
+    },
     docs: {
       sidebar: {
         autoCollapseCategories: true,

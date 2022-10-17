@@ -7,6 +7,7 @@
 @use 'modules/pyc-user-card';
 @use 'modules/pyc-title-bar';
 
+
 @use 'infima/overrides';
 
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@700&display=swap');
@@ -253,6 +254,18 @@ body {
   &:hover, &:focus {
     background-color: sentro.token-get('blurple-light');
     cursor: pointer;
+  }
+}
+
+
+div[class^=announcementBar_] {
+  border: 1.5px solid rgba(0, 0, 0, 0.459);
+  background-color: #292b2f;
+  color: whitesmoke;
+  button {
+    color:#5865f2;
+    opacity: 100;
+    border-radius: 3px;
   }
 }
 
