@@ -53,7 +53,7 @@ In this guide you will learn how to use and operate <a href="https://discord.gg/
 | <code>![snippet\|s] remove &lt;name&gt </code> | (Admins Only) Remove/delete a snippet |
 
 ## Modmail Rules
-**1.** When a thread is made, all online staff will get pinged. **To claim a thread, use the `.claim` command**, other staff should obey that you claimed the thread. If you’re inactive in a thread for a few hours when a user responds, they have the right to 'overclaim.'
+**1.** When a thread is made, all online staff will get pinged. **To claim a thread, use the `!claim` command**, other staff should obey that you claimed the thread. If you’re inactive in a thread for a few hours when a user responds, they have the right to 'overclaim.'
 
 **2.** There is such a thing as "over-claiming" where you claim a claimed thread. **You can only overclaim if you are a management member and need your serious intervention**, you were asked by the person who originally claimed the ticket to claim or if the person who claimed it isn't responding to your ping after 6 hours. Overclaim for no good reason will get you a strike or your modmail permissions revoked for a duration of time.
 
@@ -82,7 +82,7 @@ Management can only over claim to prevent abuse. It may be released to all of th
 --- 
 ➝ <span className="mention">#member-0000</span>
 <DiscordComponent>
-  <DiscordMessage profile="moltensupport">
+  <DiscordMessage profile="moonlightmanager">
     <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
       hello
       <span slot="footer">User</span>
@@ -91,7 +91,7 @@ Management can only over claim to prevent abuse. It may be released to all of th
   <DiscordMessage profile="nziie">
     !s hi
   </DiscordMessage>
-  <DiscordMessage profile="moltensupport">
+  <DiscordMessage profile="moonlightmanager">
     <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
       Hello, what can we assist you with today?
       <span slot="footer">Anonymous Reply</span>
@@ -100,50 +100,81 @@ Management can only over claim to prevent abuse. It may be released to all of th
   <DiscordMessage profile="nziie">
     !alert
   </DiscordMessage>
-  <DiscordMessage profile="moltensupport">
+  <DiscordMessage profile="moonlightmanager">
     You will be notified on a new thread message received!
   </DiscordMessage>
-  <DiscordMessage profile="moltensupport">
+  <DiscordMessage profile="moonlightmanager">
     <DiscordMention highlight={true}>{defaultOptions.profiles.nziie.author}</DiscordMention>
     <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
-      why can't I send messages in lounge?
+      someone has dm advertised me
       <span slot="footer">User</span>
     </DiscordEmbed>
   </DiscordMessage>
   <DiscordMessage profile="nziie">
-    .s loungerole
+    !s report
   </DiscordMessage>
-  <DiscordMessage profile="moltensupport">
+  <DiscordMessage profile="moonlightmanager">
     <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
-      You can’t talk in the main lounge because you don’t have the correct role. Please read <a href="#">this</a> announcement.
+      To report a member, please answer the questions below.
+
+• What is the users ID?
+• What is the reason for reporting them?
+
+Please also attach clear, uncropped proof of the offense that the user committed.
       <span slot="footer">Anonymous Reply</span>
     </DiscordEmbed>
   </DiscordMessage>
-  <DiscordMessage profile="moltensupport">
+  <DiscordMessage profile="moonlightmanager">
     <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
-      okay, thanks that's all for today.
+      856176853719187506
+      <a href="#">image of proof</a>
       <span slot="footer">User</span>
     </DiscordEmbed>
   </DiscordMessage>
   <DiscordMessage profile="nziie">
-    .s thanks
+    !s reported
   </DiscordMessage>
-  <DiscordMessage profile="moltensupport">
+  <DiscordMessage profile="moonlightmanager">
     <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
-      Thanks for contacting Molten Advertising support staff! We hope you had a good experience and that we full-filled your request!
-      <br/>
-      <br/>
-      <blockquote>This thread will close <strong>in 10 minutes</strong>. Please note that replying to this message will cancel the timed closure. <strong>Please only reply to this message if you need more help.</strong></blockquote>
+Thank you for bringing this issue to our attention. We've initiated an investigation based on the information that you provided and we'll take appropriate action based on our findings.
       <span slot="footer">Anonymous Reply</span>
     </DiscordEmbed>
   </DiscordMessage>
   <DiscordMessage profile="nziie">
-    .close 10m
+    !s morehelp
   </DiscordMessage>
-  <DiscordMessage profile="moltensupport">
+  <DiscordMessage profile="moonlightmanager">
+    <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
+      Is there anything else that we can assist you with at this time?
+      <span slot="footer">Anonymous Reply</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+    <DiscordMessage profile="moonlightmanager">
+    <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
+      nope thats it for today! Thank you
+      <span slot="footer">User</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    !s thanks
+  </DiscordMessage>
+  <DiscordMessage profile="moonlightmanager">
+    <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
+      Thanks for contacting Moonlight support staff! We hope you had a good experience and that we full-filled your request!
+      <br/>
+      <br/>
+      <blockquote>This thread will close <strong>in 10 minutes</strong>.</blockquote>
+      <blockquote> ⚠️ Please note that replying to this message will cancel the timed closure. <strong>Please only reply to this message if you need more help.</strong></blockquote>
+      <span slot="footer">Anonymous Reply</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie">
+    !close 10m
+  </DiscordMessage>
+  <DiscordMessage profile="moonlightmanager">
     🔒 This thread will close <span className="timestamp">in 10 minutes</span> if the user doesn't reply within that time limit.
   </DiscordMessage>
-  <DiscordMessage profile="wumpus">
+  <DiscordMessage profile="moonlightmanager">
     <DiscordEmbed borderColor="#5865f2">
       This thread has been closed.
     </DiscordEmbed>
@@ -153,4 +184,4 @@ Management can only over claim to prevent abuse. It may be released to all of th
 ---
 
 ## Ready to handle threads?
-Message <span className="mention">@vNziie--</span> on Discord and make sure to say you've read the modmail guide!
+Message <span className="mention">@vNziie--</span> or <span className="mention">@Jonfirexbox</span> on Discord and make sure to say you've read the modmail guide!

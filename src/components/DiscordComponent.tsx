@@ -26,6 +26,12 @@ export const defaultOptions: DiscordMessageOptions = {
             roleColor: '#ff0000',
             bot: true,
           },
+          moonlightmanager: {
+            author: 'Moonlight Manager',
+            avatar: '/img/moonlight.png',
+            roleColor: '#fff99a',
+            bot: true,
+          },
           member: {
             author: 'Member',
             avatar: 'blue',
