@@ -25,7 +25,6 @@
     "format": "remark docs/*.mdx docs/**/*.mdx docs/**/**/*.mdx docs/**/**/**/*.mdx --quiet -o"
   },
   "dependencies": {
-    "@discord-message-components/react": "^0.2.1",
     "@docusaurus/core": "2.0.0-rc.1",
     "@docusaurus/plugin-client-redirects": "^2.0.0-rc.1",
     "@docusaurus/preset-classic": "2.0.0-rc.1",

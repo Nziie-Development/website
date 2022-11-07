@@ -149,7 +149,7 @@ Thank you for bringing this issue to our attention. We've initiated an investiga
       <span slot="footer">Anonymous Reply</span>
     </DiscordEmbed>
   </DiscordMessage>
-    <DiscordMessage profile="moonlightmanager">
+  <DiscordMessage profile="moonlightmanager">
     <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
       nope thats it for today! Thank you
       <span slot="footer">User</span>
