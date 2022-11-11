@@ -130,7 +130,7 @@ Admins can only over claim to prevent abuse. It may be released to all of the Mo
   </DiscordMessage>
   <DiscordMessage profile="moonlightmanager">
     <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
-      Thanks for contacting Molten Advertising support staff! We hope you had a good experience and that we full-filled your request!
+      Thanks for contacting Moonlight support staff! We hope you had a good experience and that we full-filled your request!
       <br/>
       <br/>
       <blockquote>This thread will close <strong>in 10 minutes</strong>. Please note that replying to this message will cancel the timed closure. <strong>Please only reply to this message if you need more help.</strong></blockquote>
