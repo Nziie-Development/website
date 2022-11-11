@@ -132,11 +132,11 @@ Please also attach clear, uncropped proof of the offense that the user committed
     </DiscordEmbed>
   </DiscordMessage>
   <DiscordMessage profile="nziie">
-    !s reported
+      !s reported
   </DiscordMessage>
   <DiscordMessage profile="moonlightmanager">
     <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
-Thank you for bringing this issue to our attention. We've initiated an investigation based on the information that you provided and we'll take appropriate action based on our findings.
+      Thank you for bringing this issue to our attention. We've initiated an investigation based on the information that you provided and we'll take appropriate action based on our findings.
       <span slot="footer">Anonymous Reply</span>
     </DiscordEmbed>
   </DiscordMessage>
