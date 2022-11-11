@@ -71,10 +71,10 @@ When a thread is created, you have the ability to claim it as yours so no other 
 | -------- | -------- |
 | <code>!claim</code> | Claim a thread |
 | <code>!unclaim</code> | Unclaim a thread |
-| <code>!overclaim</code> | <strong>(Management Only)</strong> Over claim a thread |
+| <code>!overclaim</code> | <strong>(Admins Only)</strong> Over claim a thread |
 
 <div className="box yellow no-background">
-Management can only over claim to prevent abuse. It may be released to all of the Modmail Team eventually.
+Admins can only over claim to prevent abuse. It may be released to all of the Modmail Team eventually.
 </div>
 
 ## Example Situation
@@ -106,52 +106,22 @@ Management can only over claim to prevent abuse. It may be released to all of th
   <DiscordMessage profile="moonlightmanager">
     <DiscordMention highlight={true}>{defaultOptions.profiles.nziie.author}</DiscordMention>
     <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
-      someone has dm advertised me
+      where can i apply for staff?
       <span slot="footer">User</span>
     </DiscordEmbed>
   </DiscordMessage>
   <DiscordMessage profile="nziie">
-    !s report
+    !s applystaff
   </DiscordMessage>
   <DiscordMessage profile="moonlightmanager">
     <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
-      To report a member, please answer the questions below.
-
-• What is the users ID?
-• What is the reason for reporting them?
-
-Please also attach clear, uncropped proof of the offense that the user committed.
+      To apply for our staff team, head to <span className="mention">#⌇🌸・staff-applications</span>.
       <span slot="footer">Anonymous Reply</span>
     </DiscordEmbed>
   </DiscordMessage>
   <DiscordMessage profile="moonlightmanager">
     <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
-      856176853719187506
-      <a href="#">image of proof</a>
-      <span slot="footer">User</span>
-    </DiscordEmbed>
-  </DiscordMessage>
-  <DiscordMessage profile="nziie">
-      !s reported
-  </DiscordMessage>
-  <DiscordMessage profile="moonlightmanager">
-    <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
-      Thank you for bringing this issue to our attention. We've initiated an investigation based on the information that you provided and we'll take appropriate action based on our findings.
-      <span slot="footer">Anonymous Reply</span>
-    </DiscordEmbed>
-  </DiscordMessage>
-  <DiscordMessage profile="nziie">
-    !s morehelp
-  </DiscordMessage>
-  <DiscordMessage profile="moonlightmanager">
-    <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
-      Is there anything else that we can assist you with at this time?
-      <span slot="footer">Anonymous Reply</span>
-    </DiscordEmbed>
-  </DiscordMessage>
-  <DiscordMessage profile="moonlightmanager">
-    <DiscordEmbed authorIcon="/img/discord.png" authorName="Member#0000" borderColor="#5865f2" timestamp="12/24/2022">
-      nope thats it for today! Thank you
+      okay, thanks that's all for today.
       <span slot="footer">User</span>
     </DiscordEmbed>
   </DiscordMessage>
@@ -160,11 +130,10 @@ Please also attach clear, uncropped proof of the offense that the user committed
   </DiscordMessage>
   <DiscordMessage profile="moonlightmanager">
     <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
-      Thanks for contacting Moonlight support staff! We hope you had a good experience and that we full-filled your request!
+      Thanks for contacting Molten Advertising support staff! We hope you had a good experience and that we full-filled your request!
       <br/>
       <br/>
-      <blockquote>This thread will close <strong>in 10 minutes</strong>.</blockquote>
-      <blockquote> ⚠️ Please note that replying to this message will cancel the timed closure. <strong>Please only reply to this message if you need more help.</strong></blockquote>
+      <blockquote>This thread will close <strong>in 10 minutes</strong>. Please note that replying to this message will cancel the timed closure. <strong>Please only reply to this message if you need more help.</strong></blockquote>
       <span slot="footer">Anonymous Reply</span>
     </DiscordEmbed>
   </DiscordMessage>
@@ -174,7 +143,7 @@ Please also attach clear, uncropped proof of the offense that the user committed
   <DiscordMessage profile="moonlightmanager">
     🔒 This thread will close <span className="timestamp">in 10 minutes</span> if the user doesn't reply within that time limit.
   </DiscordMessage>
-  <DiscordMessage profile="moonlightmanager">
+  <DiscordMessage profile="wumpus">
     <DiscordEmbed borderColor="#5865f2">
       This thread has been closed.
     </DiscordEmbed>
