@@ -99,13 +99,7 @@ Here you can find list of extra (configurable options). If you are interested in
 </Tabs>
 
 ## Source Code
-As of <span className="timestamp">10/15/2022</span>, we are now giving source code for specific features only. Prices starting at **$10** and up for source code, price can vary on feature complexity.
-
-<div className="box red no-background">
-  We don't give source code for <strong>Modmail features</strong>, <strong>Music features</strong>, or other features that break Discord's Terms of Service or Community Guidelines. <h4>🛑 We have the right to deny any source code request</h4>
-</div>
-
-Contact me on my [support server](./discord.html) in order to get a price estimate and to request source code.
+__We do not give source code__ at the moment under ANY circumstances.
 
 
 <h3>🛑 We have the right to deny any source code request</h3>
