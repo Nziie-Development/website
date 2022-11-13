@@ -63,7 +63,7 @@ If you are ever unsure on how to do some of the moderations please check <span c
   </DiscordMessage>
   <DiscordMessage profile="moonlightmanager">
   <DiscordMention highlight={false}>{defaultOptions.profiles.member.author}</DiscordMention> has been warned by <DiscordMention highlight={false}>vNziie--</DiscordMention> for a severity of <code>Low</code>
-  They now have <code>1</code> warning(s) in that category, and <code>1</code> total warnings.
+  \nThey now have <code>1</code> warning(s) in that category, and <code>1</code> total warnings.
   </DiscordMessage>
 </DiscordComponent>
 
@@ -79,7 +79,8 @@ If you are ever unsure on how to do some of the moderations please check <span c
 
 *These are the arguments that aren't self explanatory*
 
-> 'severity' - How sensitive or how bad the warn is for the user
+> <span className="timestamp">?s</span> - How sensitive or how bad the warn is for the user; *accepts: `minor` `low` `medium` and `high` as types*
+> <span className="timestamp">?r</span> - The reason for the warning/action, can be any type of string
 
 </details> 
 
