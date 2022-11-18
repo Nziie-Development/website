@@ -59,7 +59,7 @@ If you are ever unsure on how to do some of the moderations please check <span c
 
 <DiscordComponent>
   <DiscordMessage profile="nziie">
-  !warn <DiscordMention highlight={false}>{defaultOptions.profiles.member.author}</DiscordMention> ?r Dm Advertising ?s low
+  !warn <DiscordMention highlight={false}>{defaultOptions.profiles.member.author}</DiscordMention> ?r Spam ?s low
   </DiscordMessage>
   <DiscordMessage profile="moonlightmanager">
   <DiscordMention highlight={false}>{defaultOptions.profiles.member.author}</DiscordMention> has been warned by <DiscordMention highlight={false}>vNziie--</DiscordMention> for a severity of <code>Low</code>
