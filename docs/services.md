@@ -32,7 +32,7 @@ This plan is mainly for small bots and a good amount of features, may be slower 
 </Tabs>
 
 <div className="pyc-hero__actions">
-  <Button link="https://client.pinghost-v2.pinglik.eu/index.php?rp=/store/vnziie/discord-bot-basic" class="basicplanbutton">Purchase</Button>
+  <Button link="https://client.pinghost-v2.pinglik.eu/aff.php?aff=7&pid=4" class="basicplanbutton">Purchase</Button>
 </div>
 
 ### Advanced Plan
@@ -53,7 +53,7 @@ This is plan runs more complex bots better than the [basic plan](#basic-plan). T
 </Tabs>
 
 <div className="pyc-hero__actions">
-  <Button link="https://client.pinghost-v2.pinglik.eu/index.php?rp=/store/vnziie/discord-bot-advanced">Purchase</Button>
+  <Button link="https://client.pinghost-v2.pinglik.eu/aff.php?aff=7&pid=5">Purchase</Button>
 </div>
 
 ### Premium Plan
@@ -74,7 +74,7 @@ This plan is great for all complicated bots, much faster than all the other plan
 </Tabs>
 
 <div className="pyc-hero__actions">
-  <Button link="https://client.pinghost-v2.pinglik.eu/index.php?rp=/store/vnziie/discord-bot-premium">Purchase</Button>
+  <Button link="https://client.pinghost-v2.pinglik.eu/aff.php?aff=7&pid=7">Purchase</Button>
 </div>
 <br/>
 
