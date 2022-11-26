@@ -100,6 +100,3 @@ Here you can find list of extra (configurable options). If you are interested in
 
 ## Source Code
 __We do not give source code__ at the moment under ANY circumstances.
-
-
-<h3>🛑 We have the right to deny any source code request</h3>
