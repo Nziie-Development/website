@@ -19,7 +19,7 @@ export default function Home(): JSX.Element {
         hasLogo={true}
       />
       <main className="content-wrap--home-page">
-      I provide cheap Discord bot services - a Pycord, HTML, CSS, JS, CSS and SCSS Developer. Imagine a custom made to your liking...
+      I provide cheap Discord bot services - a Pycord, HTML, CSS, JS, CSS and SCSS Developer. Imagine a custom bot made to your liking...
       </main>
     </DefaultLayout>
   );
