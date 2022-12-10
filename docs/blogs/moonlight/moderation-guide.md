@@ -51,7 +51,7 @@ If you are ever unsure on how to do some of the moderations please check <span c
 
 | Usage | Description |
 | ----------------------- | ----------- |
-| <code>!warn &lt;member&gt &lt;reason&gt &lt;channel&gt [belongs_to_channel] [notes]</code> | Issue an warning |
+| <code>!warn &lt;member&gt &lt;flags&gt</code> | Issue an warning |
 | <code>!case &lt;warning_id&gt</code> | View an warning by ID |
 | <code>!delwarn &lt;warning_id&gt</code> | Delete an warning by ID (Admins only) |
 
@@ -78,6 +78,8 @@ If you are ever unsure on how to do some of the moderations please check <span c
 <summary>Command Arguments</summary>
 
 *These are the arguments that aren't self explanatory*
+
+**Flags**
 
 > <span className="timestamp">?s</span> - How sensitive or how bad the warn is for the user; *accepts: `minor` `low` `medium` and `high` as types*
 <br/>

@@ -318,6 +318,25 @@ div[class^=announcementBar_] {
   //       We Should be able to remove everything below here, but for some reason it doesn't work without it. Also, some
   //       of it hasn't been added to the component package yet anyways so that needs to be done.
   .discord-message {
+    .discord-embed-footer {
+      color:white;
+      font-size: 12px;
+    }
+    .discord-embed-footer-separator {
+      color:white !important;
+    }
+    .discord-embed-description {
+      font-size: 110% !important;
+    }
+    .discord-embed-field {
+      font-size: 110% !important;
+    }
+    .discord-embed-field-title {
+      color:white !important;
+      font-weight: bolder;
+      font-family: Whitney;
+      font-size: 15px;
+    }
     .discord-author-info {
       .discord-author-username {
         letter-spacing: unset;
@@ -395,6 +414,18 @@ details.customdetails {
     border-color: #909aff;
     background-color: #909aff;
   }
+
+
+}
+
+.betterimage {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.5s ease;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: black 0px 5px 15px;
+  }
 }
 
 .user-card .title {
@@ -405,6 +436,34 @@ details.customdetails {
 
 .user-card .text {
   grid-row: 3;
+}
+
+p a {
+  color: #1c97da;
+  text-shadow: none;
+  display: inline-block;
+  position: relative;
+  &:hover {
+    color: #1c97da
+  }
+  &::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+    #1c97da;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  &:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
 }
 
 .discord-link {
@@ -487,6 +546,10 @@ details.customdetails {
     transform: translateY(-2px);
     box-shadow: black 0px 5px 15px;
   }
+}
+
+.box.shadow {
+  box-shadow: black 0px 5px 15px;
 }
 
 .box.blurple {

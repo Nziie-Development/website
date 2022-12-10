@@ -36,9 +36,9 @@ const config = {
   ],
 
   themeConfig: {
-    announcementBar: {
-      content: `Check out my <a href="/blog/python-classes">new blog</a>!`,
-    },
+    // announcementBar: {
+    //   content: `Check out my <a href="/blog/python-classes">new blog</a>!`,
+    // },
     docs: {
       sidebar: {
         autoCollapseCategories: true,
@@ -81,12 +81,20 @@ const config = {
             {
               label: 'Reviews',
               to: '/reviews'
+            },
+            {
+              label: 'Showcase',
+              to: '/category/showcase'
             }
           ]
         },
       {
         title: "Other",
         items: [
+          {
+            label: "Community Forum",
+            href: 'https://community.nziie.is-a.dev'
+          },
           {
             label: "Terms of Use",
             to: "/terms"
