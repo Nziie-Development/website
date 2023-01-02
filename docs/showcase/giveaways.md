@@ -15,6 +15,8 @@ import {
 import "discord-message-components/packages/react/dist/style.css";
 import DiscordComponent, { defaultOptions } from "../../src/components/DiscordComponent";
 
+---
+
 My giveaway system uses <span style={{color: '#4DB33D'}}>MongoDB</span>, buttons, and other various light-weight systems in order to give Server Administrators the easiest experience when hosting a giveaway. Thus, providing a user an easy way to have their entry counted into the giveaway. My giveaway system is featured in <a href="https://servermanagerbot.ml" style={{color: '#5865f2'}}>Server Manager</a>'s giveaway system.
 
 ## Example

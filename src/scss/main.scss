@@ -79,6 +79,24 @@
   --ifm-color-primary-lightest: #b4baf9;
 }
 
+.betterimage {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.5s ease;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: black 0px 5px 15px;
+  }
+}
+
+.caption {
+  text-align: center;
+  vertical-align: middle;
+  opacity: 50%;
+  font-size: 87%;
+  font-weight:lighter;
+}
+
 p {
   font-size: 1.05rem;
 }
@@ -416,16 +434,6 @@ details.customdetails {
   }
 
 
-}
-
-.betterimage {
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transition: all 0.5s ease;
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: black 0px 5px 15px;
-  }
 }
 
 .user-card .title {

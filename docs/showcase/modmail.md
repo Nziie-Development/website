@@ -14,6 +14,8 @@ import {
 import "discord-message-components/packages/react/dist/style.css";
 import DiscordComponent, { defaultOptions } from "../../src/components/DiscordComponent";
 
+---
+
 My modmail system features a feature-rich support system that helps server members get in contact with staff easier than ever. Using Discord UI (buttons and more) to make sure threads are *squeaky clean* 🧽.
 
 ## Main Functionality

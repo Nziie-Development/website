@@ -16,6 +16,8 @@ import {
 import "discord-message-components/packages/react/dist/style.css";
 import DiscordComponent, { defaultOptions } from "../../src/components/DiscordComponent";
 
+---
+
 Currently, I have 2 moderation systems that you can choose from. **v1** includes a more robust command usage, **slash commands**. While **v2** uses prefix commands, however, it uses a custom flags system similar to [Wick](https://wickbot.com)'s flag system and uses a better severity system compared to v1. Both versions include a cases system, in which cases are permanently stored in the database for future use until the case is deleted.
 
 

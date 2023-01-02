@@ -88,15 +88,15 @@ Here you can find list of extra (configurable options). If you are interested in
 
 ### White labelling 
 <Tabs>
-  <TabItem value="_custom-about-me" label="Custom About Me section" default>
+  <TabItem value="_custom-about-me" label="Custom About Me section">
     <p>With this, you can set your custom message in about me section for the bot (you can also remove link to vNziie's website)</p>
     <p>Price: <strong>$3.0 / 3 months ($1.0 / month)</strong></p>
   </TabItem>
   <TabItem value="_whitelabel" label="Whitelabel bot (own application)" default>
-    <p>You will need to make own application on <a href="https://discord.com/developers/applications">Discord Dev Portal</a> and enable all intents. You will also need to provide your bot token to vNziie. This allows you to change bot username, avatar, about me section, etc. on your own. Good for those who want to act that it's their own bot.</p>
+    <p>You will need to make your own application on <a href="https://discord.com/developers/applications">Discord Dev Portal</a> and enable all intents. You will also need to provide your bot token to vNziie. This allows you to change bot username, avatar, about me section, etc. on your own. Good for those who want to act that it's their own bot.</p>
   <p>Price: <strong>$5.0 / 3 months ($1.66 / month)</strong></p>
   </TabItem>  
 </Tabs>
 
 ## Source Code
-__We do not give source code__ at the moment under ANY circumstances.
+🛑 __We are currently NOT giving source code for any bots.__
