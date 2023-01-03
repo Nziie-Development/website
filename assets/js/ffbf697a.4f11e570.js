@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkguide_pycord_dev=self.webpackChunkguide_pycord_dev||[]).push([[5691],{2142:function(e){e.exports=JSON.parse('{"label":"MEE6 Controversy","permalink":"/blog/tags/mee-6-controversy","allTagsPath":"/blog/tags","count":1}')}}]);

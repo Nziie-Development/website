@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkguide_pycord_dev=self.webpackChunkguide_pycord_dev||[]).push([[3224],{9271:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/mee-6-controversy","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
