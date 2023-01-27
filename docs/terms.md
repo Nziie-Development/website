@@ -19,6 +19,7 @@ description: Terms of Use for custom bots and source code
 <br/>
 <br/>
 <span className="rulenum">4.</span> Please do not rush me, I may cancel your services without a full refund if you rush me too much. You can be patient like every other client. 
+
 ## Refunds
 <span className="rulenum">1.</span> If you request a refund for your bot, it can be denied at any time without reason.
 <br/>
