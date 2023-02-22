@@ -26,7 +26,8 @@ In this guide, you will learn how to do your <strong>tasks</strong>, <strong>mod
 Your tasks as a member of the **Moderation Team** consists of (but not limited to):
 
   - Issue **10** <u>valid</u> advertisement warnings
-    - *Checks for advertisement warnings are done every* **Saturday Morning PST**
+  - Send at 25 messages in <span className="mention">#💬︱lounge</span> **(If you spam it will not count)**
+    - *Checks for advertisement warnings and message are done every* **Saturday Morning PST**
   - Moderate <span className="mention">#💬︱lounge</span>
   - Handle [Modmail](./modmail-guide.md) **threads**
   - Handle [Modmail](./modmail-guide.md) **reports** (and other reports)
