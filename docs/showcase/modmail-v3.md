@@ -1,5 +1,5 @@
 ---
-title: Modmail V3
+title: Modmail v3
 description: Modmail v3, a new, easy way to communicate with server members with a fully customizable system.
 ---
 import {
@@ -21,4 +21,4 @@ Modmail v3 includes a robust configuration system to configure 99% of the bot's 
 
 ### Customizable Prefix
 Now, you can customize the prefix of your bot on the fly and have it update immediately. 
-- <span className="timestamp">!config set prefix ?</span> (changes to **?**)
+- <span className="timestamp">!config set prefix ?</span> (changes to <strong>?</strong>)
