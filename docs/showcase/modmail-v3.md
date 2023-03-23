@@ -22,3 +22,8 @@ Modmail v3 includes a robust configuration system to configure 99% of the bot's 
 ### Customizable Prefix
 Now, you can customize the prefix of your bot on the fly and have it update immediately. 
 - <span className="timestamp">!config set prefix ?</span> (changes to <strong>?</strong>)
+
+### Customizations
+The system is highly customizable, giving you the power to customize it to your liking or needs. 
+
+#### More info coming soon
