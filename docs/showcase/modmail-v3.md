@@ -37,6 +37,11 @@ Now, you can customize the prefix of your bot on the fly and have it update imme
 ## Highly customizable
 The system is highly customizable, giving you the power to customize it to your liking or needs. 
 
+<details className="customdetails">
+<summary>Configurations list</summary>
+<span className="cb">disabled</span> - Disable or enable modmail functionality
+</details>
+
 <DiscordComponent>
   <DiscordMessage profile="nziie" roleColor="none">
   !config set thread_creation_response Thanks for contacting our staff team, please wait for a response.
@@ -119,4 +124,3 @@ You can have as many options as you'd like, as long as it doesn't exceeed the se
 
 ---
 
-##
