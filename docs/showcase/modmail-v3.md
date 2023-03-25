@@ -39,7 +39,13 @@ The system is highly customizable, giving you the power to customize it to your 
 
 <details className="customdetails">
 <summary>Configurations list</summary>
+<span className="cb">modmail_guild_id</span> - ID or the guild/server you want threads to be sent to
+<span className="cb">modmail_category_id</span> - The main category you want threads to be sent to by default
+<span className="cb">prefix</span> - Prefix of the bot
+<span className="cb">success_emoji</span> - Emoji of success
+<span className="cb">error_emoji</span> - Emoji of an error
 <span className="cb">disabled</span> - Disable or enable modmail functionality
+
 </details>
 
 <DiscordComponent>
