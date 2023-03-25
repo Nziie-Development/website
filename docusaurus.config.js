@@ -36,9 +36,9 @@ const config = {
   ],
 
   themeConfig: {
-    // announcementBar: {
-    //   content: `Check out my <a href="/blog/python-classes">new blog</a>!`,
-    // },
+    announcementBar: {
+      content: `New <a href="/showcase/modmail-v3">Modmail v3</a>!`,
+     },
     docs: {
       sidebar: {
         autoCollapseCategories: true,
@@ -53,7 +53,7 @@ const config = {
       hideOnScroll: true,
       items: [
         {
-          href: '/discord',
+          href: 'https://discord.com/invite/b9GPHgJ6TK',
           position: 'right',
           label: 'Discord',
         },
@@ -91,10 +91,6 @@ const config = {
       {
         title: "Other",
         items: [
-          {
-            label: "Community Forum",
-            href: 'https://community.nziie.is-a.dev'
-          },
           {
             label: "Terms of Use",
             to: "/terms"

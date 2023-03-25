@@ -19,7 +19,7 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 ## 🎉 v3.0.0 {#why-v3}
 Modmail v3 includes a robust configuration system to configure 99% of the bot's responses, leaving the sky as the limit of possibilites of how your bot can be customized to your liking, theme, or needs. v3 showcases **Discord's newest and greatest UI** while providing you a crisp low-response time. Modmail v3 is the only bot you'll ever need for user support!
 
-### Customizable Prefix
+## Customizable Prefix
 Now, you can customize the prefix of your bot on the fly and have it update immediately. 
 - <span className="timestamp">!config set prefix ?</span> (changes to <strong>?</strong>)
 
@@ -34,7 +34,7 @@ Now, you can customize the prefix of your bot on the fly and have it update imme
   </DiscordMessage>
 </DiscordComponent>
 
-### Highly customizable
+## Highly customizable
 The system is highly customizable, giving you the power to customize it to your liking or needs. 
 
 <DiscordComponent>
@@ -70,5 +70,53 @@ The system is highly customizable, giving you the power to customize it to your 
   </DiscordMessage>
 </DiscordComponent>
 
-### Integrated Menus System
+## Integrated Menus System
 The thread menu system allows users who are creating a thread to choose from preset options set my admins. Depending on which option they select, the thread will move itself to a category set by *you*, in the option settings.
+
+### Adding options
+
+<DiscordComponent>
+  <DiscordMessage profile="nziie" roleColor="none">
+  !menu options add
+  </DiscordMessage>
+  <DiscordMessage profile="modmail" avatar="blue">
+    <DiscordEmbed borderColor="#5865f2">
+      Please send what you want the dropdown option label to be.
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie" roleColor="none">
+  Report User
+  </DiscordMessage>
+  <DiscordMessage profile="modmail" avatar="blue">
+    <DiscordEmbed borderColor="#5865f2">
+      Please send the description you would like to be displayed in the option. Use 'none' for no description.
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie" roleColor="none">
+  Report a user (not staff member) for breaking server rules.
+  </DiscordMessage>
+  <DiscordMessage profile="modmail" avatar="blue">
+    <DiscordEmbed borderColor="#5865f2">
+      Please send the category ID you would like the thread to be sent to. Use 'none' for the thread not to be moved.
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage profile="nziie" roleColor="none">
+  1089262352530161684
+  </DiscordMessage>
+  <DiscordMessage profile="modmail" avatar="blue">
+    <DiscordEmbed borderColor="#2ecc71" embedTitle="Success">
+      Successfully created menu option!<br/><br/><blockquote><strong>Label:</strong> Report User<br/><strong>Description:</strong> Report a user (not staff member) for breaking server rules.<br/><strong>Move to:</strong> 1089262352530161684</blockquote>
+    </DiscordEmbed>
+  </DiscordMessage>
+</DiscordComponent>
+
+### How it looks
+
+<img className="betterimage" src="https://cdn.nziie.is-a.dev/u/files/7thrGbvIIjhs"/>
+
+---
+You can have as many options as you'd like, as long as it doesn't exceeed the select menu option limit.
+
+---
+
+##
