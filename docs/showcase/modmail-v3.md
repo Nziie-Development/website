@@ -188,7 +188,7 @@ The thread menu system allows users who are creating a thread to choose from pre
 <img className="betterimage" src="https://cdn.nziie.is-a.dev/u/files/7thrGbvIIjhs"/>
 
 ---
-You can have as many options as you'd like, as long as it doesn't exceeed the select menu option limit.
+You can have as many options as you'd like, as long as it doesn't exceed the Discord select menu option limit.
 
 ## Thread Logging
 
