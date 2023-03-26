@@ -195,7 +195,7 @@ You can have as many options as you'd like, as long as it doesn't exceed the Dis
 v3 showcases enhanced thread logging. You can manage the *global thread logs* with the <span className="cb">!logs</span> command and sub-commands.
 
 ### Pastebin API Logs
-Yup! Instead of the old *gloomy* Discord file logs like v1 or v1, v3 uses [Pastebin](https://pastebin.com) logs. The entire thread history is uploaded to Pastebin for ease of use and makes it easier to view later.
+Yup! Instead of the old *gloomy* Discord file logs like v1 or v2, v3 uses [Pastebin](https://pastebin.com) logs. The entire thread history is uploaded to Pastebin for ease of use and makes it easier to view later.
 
 ## Permission Levels
 v3 uses permission levels to decide which user can use what command.
@@ -206,8 +206,7 @@ Improvements are being made to v3, so if you have a v1 or v2 modmail bot, you wi
 
 <div className="box green no-background shadow">
 <div className="title">
-Join my Development S
-erver!
+Join my Development Server!
 </div>
 You will need to join my development server in order to purchase this new system. <a href="https://discord.gg/b9GPHgJ6TK" className="discord-link">Join here</a>.
 </div>

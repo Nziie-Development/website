@@ -40,10 +40,13 @@ In this guide you will learn how to use and operate <a href="https://discord.gg/
 ## Modmail Commands
 |     Usage               |  Description   |
 | ----------------------- | ----------- |
-| <span className="mention">.[reply\|r] &lt;message&gt</span> | Reply to a modmail thread (this is an anonymous reply) |
+| <span className="mention">.[reply\|r] &lt;message&gt</span> | Reply to a modmail thread (this is an non anonymous reply) |
+| <span className="mention">.[anonreply\|ar] &lt;message&gt</span> | Reply to a modmail thread (this is an anonymous reply) |
 | <span className="mention">.[close\|c] <a></a>[time] <a></a>[message]</span> | Close a thread with an optional duration to wait to close the thread (timed close) - `message` will appear on the user's end. This can be 'Have a great day' |
-| <span className="mention">.alert [member]</span> | Notify yourself or another member of the next thread messaged received |
+| <span className="mention">.[close\|c] cancel <a></a>[time] <a></a>[message]</span> | Cancel a closeure of the thread |
+| <span className="mention">.[alert\|notify] [member]</span> | Notify yourself or another member of the next thread messaged received |
 | <span className="mention">.move &lt;name&gt</span> | Move a thread to a category by name |
+| <span className="mention">.contact [member]</span> | Contact a member |
 
 <div className="box green no-background" style={{'padding-bottom': '0'}}>
 <span className="timestamp">category_name</span> can be a shorthand word of a category name.
@@ -51,13 +54,20 @@ In this guide you will learn how to use and operate <a href="https://discord.gg/
 For example, you can use <span className="mention">.move moderation</span> to move a thread to the moderation team.
 </div>
 
-
 ## Snippet Commands
 |     Usage               |  Description   |
 | ----------------------- | ----------- |
 | <code>.[snippet\|s] <a></a>[name] </code> | View all the snippets or send one in the thread by providing `name` |
 | <code>.[snippet\|s] add &lt;name&gt &lt;value&gt</code> | (Management Only) Add a snippet |
 | <code>.[snippet\|s] remove &lt;name&gt </code> | (Management Only) Remove/delete a snippet |
+
+## Modmail Moderation Commands
+|     Usage               |  Description   |
+| ----------------------- | ----------- |
+| <code>.[block] <a></a>[member] [reason]</code> | This will block a user from being able to use the modmail |
+| <code>.[unblock] <a></a>[member] </code> | This will unblock a user to being able to use the modmail again |
+
+### Any other commands you may be confused with, check out [The Modmail v3 post](/docs/showcase/modmail-v3.md) for more info!
 
 ## Modmail Rules
 **1.** When a thread is made, all online staff will get pinged. **To claim a thread, use the `.claim` command**, other staff should obey that you claimed the thread. If you’re inactive in a thread for a few hours when a user responds, they have the right to 'overclaim.'
@@ -72,20 +82,6 @@ For example, you can use <span className="mention">.move moderation</span> to mo
 
 **6.** Move a thread to the correct team category with `.move <team>`. Please don't handle threads that aren't for your department. 
 
-## Claiming
-
-When a thread is created, you have the ability to claim it as yours so no other staff member can respond to the thread but you.
-
-| Usage | Description |
-| -------- | -------- |
-| <code>.claim</code> | Claim a thread |
-| <code>.unclaim</code> | Unclaim a thread |
-| <code>.overclaim</code> | <strong>(Management Only)</strong> Over claim a thread |
-
-<div className="box yellow no-background">
-Management can only over claim to prevent abuse. It may be released to all of the Modmail Team eventually.
-</div>
-
 ## Example Situation
 
 --- 
@@ -98,7 +94,7 @@ Management can only over claim to prevent abuse. It may be released to all of th
     </DiscordEmbed>
   </DiscordMessage>
   <DiscordMessage profile="nziie">
-    .s hi
+    .hi
   </DiscordMessage>
   <DiscordMessage profile="moltensupport">
     <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
@@ -120,7 +116,7 @@ Management can only over claim to prevent abuse. It may be released to all of th
     </DiscordEmbed>
   </DiscordMessage>
   <DiscordMessage profile="nziie">
-    .s loungerole
+    .loungerole
   </DiscordMessage>
   <DiscordMessage profile="moltensupport">
     <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
@@ -135,7 +131,7 @@ Management can only over claim to prevent abuse. It may be released to all of th
     </DiscordEmbed>
   </DiscordMessage>
   <DiscordMessage profile="nziie">
-    .s thanks
+    .thanks
   </DiscordMessage>
   <DiscordMessage profile="moltensupport">
     <DiscordEmbed authorIcon="/img/logo.png" authorName="vNziie--#7777" borderColor="#2ecc71" timestamp="12/24/2022">
@@ -162,4 +158,4 @@ Management can only over claim to prevent abuse. It may be released to all of th
 ---
 
 ## Ready to handle threads?
-Message <span className="mention">@vNziie--</span> on Discord and make sure to say you've read the modmail guide!
+Message <span className="mention">/form</span> <code>Modmail Test</code> in the staff server, and you will recive a dm from Server Manager if you pasted or not!
