@@ -234,7 +234,6 @@ You will need to join my development server in order to purchase this new system
 | <span className="cb">!config </span> | Manage configurations for the bot. |
 | <span className="cb">!config list </span> | None |
 | <span className="cb">!config set </span> | Set a configuration variable and its value |
-| <span className="cb">!viewthread </span> | None |
 | <span className="cb">!menu </span> | Customize options users can select when creating a Modmail thread. |
 | <span className="cb">!menu embed_text </span> | Set the text that is displayed in the embed of the menu message. |
 | <span className="cb">!menu enable </span> | Enable the thread menu. |
