@@ -144,7 +144,7 @@ The system is highly customizable, giving you the power to customize it to your 
 </DiscordComponent>
 
 ## Integrated Menus System
-The thread menu system allows users who are creating a thread to choose from preset options set my admins. Depending on which option they select, the thread will move itself to a category set by *you*, in the option settings.
+The thread menu system allows users who are creating a thread to choose from preset options set by admins. Depending on which option they select, the thread will move itself to a category set by *you*, in the option settings.
 
 ### Adding options
 
