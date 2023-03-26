@@ -197,6 +197,9 @@ v3 showcases enhanced thread logging. You can manage the *global thread logs* wi
 ### Pastebin API Logs
 Yup! Instead of the old *gloomy* Discord file logs like v1 or v1, v3 uses [Pastebin](https://pastebin.com) logs. The entire thread history is uploaded to Pastebin for ease of use and makes it easier to view later.
 
+## Permission Levels
+v3 uses permission levels to decide which user can use what command.
+
 
 ## Conclusion
 Improvements are being made to v3, so if you have a v1 or v2 modmail bot, you will need to [pay $1 USD](https://redirect.nziie.is-a.dev/donate) for your bot to be migrated to v2. This includes me manually transferring any snippets you have, or other configurations you want saved in v3; which is a pain.
@@ -208,3 +211,39 @@ erver!
 </div>
 You will need to join my development server in order to purchase this new system. <a href="https://discord.gg/b9GPHgJ6TK" className="discord-link">Join here</a>.
 </div>
+
+## Full Commands List {#commands-list}
+| Name | Description |
+| ----- | ----- |
+| <span className="cb">!anonreply &lt;message&gt;</span> | Reply to a modmail thread anonymously |
+| <span className="cb">!move &lt;category_name&gt;</span> | Move a modmail thread |
+| <span className="cb">!logging [user]</span> | Get previous Modmail thread logs of a member, or all if user isn't provided. |
+| <span className="cb">!logging delete [user]</span> | Wipe a log entry from the database, don't provide a log ID to wipe all. |
+| <span className="cb">!help [command]</span> | Shows this message |
+| <span className="cb">!contact &lt;member&gt;</span> | Contact a user |
+| <span className="cb">!block [user] [reason]</span> | Block a user from modmail, reason is optional and is **not** shown to the user. |
+| <span className="cb">!close [time] [message]</span> | Close a thread with an optional time argument |
+| <span className="cb">!close cancel [time] [message]</span> | Cancel a closeure |
+| <span className="cb">!status </span> | Customize the bot's status loop |
+| <span className="cb">!status remove </span> | Remove an entry to the bot's status loop |
+| <span className="cb">!status add </span> | Add an entry to the bot's status loop |
+| <span className="cb">!snippet [name]</span> | Invoke a snippet |
+| <span className="cb">!snippet remove [name]</span> | Remove a snippet |
+| <span className="cb">!snippet add [name]</span> | Add a snippet |
+| <span className="cb">!reply &lt;message&gt;</span> | Reply to a modmail thread |
+| <span className="cb">!config </span> | Manage configurations for the bot. |
+| <span className="cb">!config list </span> | None |
+| <span className="cb">!config set </span> | Set a configuration variable and its value |
+| <span className="cb">!viewthread </span> | None |
+| <span className="cb">!menu </span> | Customize options users can select when creating a Modmail thread. |
+| <span className="cb">!menu embed_text </span> | Set the text that is displayed in the embed of the menu message. |
+| <span className="cb">!menu enable </span> | Enable the thread menu. |
+| <span className="cb">!menu dropdown_placeholder </span> | Set the text that is displayed in the dropdown menu. |
+| <span className="cb">!menu disable </span> | Disable the thread menu. |
+| <span className="cb">!menu options </span> | Manage options for the Modmail menu |
+| <span className="cb">!alert [member]</span> | Get notified of the next thread message |
+| <span className="cb">!unblock [user]</span> | Unblock a user from modmail. |
+| <span className="cb">!permissions </span> | Manage permissions for each permission level |
+| <span className="cb">!permissions view </span> | View the roles for all permission levels |
+| <span className="cb">!permissions add </span> | Add a role to a permission level. Permission levels: `OWNER`, `ADMIN`, `MODERATOR`, `SUPPORTER`, and `REGULAR` |
+| <span className="cb">!permissions remove </span> | Remove a role from a permission level. Permission levels: `OWNER`, `ADMIN`, `MODERATOR`, `SUPPORTER`, and `REGULAR` 
