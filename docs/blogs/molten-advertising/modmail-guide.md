@@ -159,4 +159,4 @@ For example, you can use <span className="mention">.move moderation</span> to mo
 ---
 
 ## Ready to handle threads?
-Message <span className="mention">/form</span> <code>Modmail Test</code> in the staff server, and you will recive a dm from Server Manager if you pasted or not!
+Message <span className="mention">/form</span> <code>Modmail Test</code> in the staff server, and you will receive a direct message from Server Manager if you passed or not!
