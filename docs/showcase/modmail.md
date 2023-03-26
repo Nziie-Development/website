@@ -16,6 +16,15 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 
 ---
 
+<div className="box red no-background shadow">
+<div className="title">
+Newer Version Available
+</div>
+The newer version of Modmail, v3, is available. <a href="./modmail-v3" className="discord-link">Check it out!</a>
+</div>
+
+---
+
 My modmail system features a feature-rich support system that helps server members get in contact with staff easier than ever. Using Discord UI (buttons and more) to make sure threads are *squeaky clean* 🧽.
 
 ## Main Functionality

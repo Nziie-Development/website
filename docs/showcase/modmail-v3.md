@@ -1,6 +1,7 @@
 ---
-title: Modmail v3
+title: ✨ Modmail v3
 description: Modmail v3, a new, easy way to communicate with server members with a fully customizable system.
+sidebar_position: 1
 ---
 import {
   DiscordButton,
@@ -37,23 +38,76 @@ Now, you can customize the prefix of your bot on the fly and have it update imme
 ## Highly customizable
 The system is highly customizable, giving you the power to customize it to your liking or needs. 
 
-<details className="customdetails">
+<details className="customdetails" open>
 <summary>Configurations list</summary>
-<span className="cb">modmail_guild_id</span> - ID or the guild/server you want threads to be sent to
+<span className="cb">modmail_category_id</span> - The category where threads are created
 <br/>
-<span className="cb">modmail_category_id</span> - The main category you want threads to be sent to by default
+<span className="cb">modmail_guild_id</span> - The guild ID of where modmail is based in.
 <br/>
-<span className="cb">prefix</span> - Prefix of the bot
+<span className="cb">log_channel</span> - The channel where modmail logs and update logs are sent
 <br/>
-<span className="cb">success_emoji</span> - Emoji of success
+<span className="cb">prefix</span> - The prefix of the bot.
 <br/>
-<span className="cb">error_emoji</span> - Emoji of an error
+<span className="cb">mention</span> - This is the message above user information for when a new thread is created in the channel. You can use a ping here.
 <br/>
-<span className="cb">sent_emoji</span> - Emoji representing a thread message was sent
+<span className="cb">main_color</span> - This is the main color for Modmail (help/about/ping embed messages, subscribe, move, etc.).
 <br/>
-<span className="cb">disabled</span> - Disable or enable modmail functionality
+<span className="cb">success_color</span> - This is the color for Modmail when anything is successful.
 <br/>
-
+<span className="cb">error_color</span> - This is the color for Modmail when anything goes wrong, unsuccessful commands, or a stern warning.
+<br/>
+<span className="cb">mod_color</span> - This is the color of the messages sent by the moderators, this applies to messages within in the thread channel and the DM thread messages received by the recipient.
+<br/>
+<span className="cb">recipient_color</span> - This is the color of the messages sent by the recipient, this applies to messages received in the thread channel.
+<br/>
+<span className="cb">thread_creation_title</span> - This is the message embed title sent to the recipient upon the creation of a new thread.
+<br/>
+<span className="cb">thread_creation_response</span> - This is the message embed content sent to the recipient upon the creation of a new thread.
+<br/>
+<span className="cb">thread_creation_footer</span> - This is the message embed footer sent to the recipient upon the creation of a new thread.
+<br/>
+<span className="cb">thread_close_title</span> - This is the message embed title sent to the recipient upon the closure of a thread.
+<br/>
+<span className="cb">thread_close_response</span> - This is the message embed content sent to the recipient upon the closure of a thread.
+<br/>
+<span className="cb">thread_close_footer</span> - This is the message embed footer sent to the recipient upon the closure of a thread.
+<br/>
+<span className="cb">thread_move_title</span> - This is the message embed content sent to the recipient upon contacting a member.
+<br/>
+<span className="cb">thread_move_notify</span> - Notify the recipient if the thread was moved.
+<br/>
+<span className="cb">thread_move_response</span> - This is the title of the embed sent to the recipient upon the contacting a member.
+<br/>
+<span className="cb">thread_move_footer</span> - This is the message embed footer sent to the recipient upon contacting a member.
+<br/>
+<span className="cb">close_on_leave</span> - Closes a modmail thread upon user leave automatically
+<br/>
+<span className="cb">confirm_thread_creation</span> - Ensure users confirm that they want to create a new thread
+<br/>
+<span className="cb">confirm_thread_creation_title</span> - Title for the embed message sent to users to confirm a thread creation
+<br/>
+<span className="cb">confirm_thread_creation_response</span> - Description for the embed message sent to users to confirm a thread creation
+<br/>
+<span className="cb">confirm_thread_creation_accept</span> - Emoji to accept a thread creation
+<br/>
+<span className="cb">confirm_thread_creation_deny</span> - Emoji to deny a thread creation
+<br/>
+<span className="cb">disabled</span> - Stop accepting new Modmail threads. Users won't be able to create new threads, but existing ones will still function as expected.
+<br/>
+<span className="cb">disabled_new_threads_title</span> - The title of the message embed when Modmail new thread creation is disabled and user tries to create a new thread.
+<br/>
+<span className="cb">disabled_new_threads_response</span> - The body of the message embed when Modmail new thread creation is disabled and user tries to create a new thread.
+<br/>
+<span className="cb">disabled_new_threads_footer</span> - The footer of the message embed when Modmail new thread creation is disabled and user tries to create a new thread.
+<br/>
+<span className="cb">sent_emoji</span> - Emoji that indicates a thread message was sent
+<br/>
+<span className="cb">error_emoji</span> - Emoji that indicates something was unsuccessful
+<br/>
+<span className="cb">blocked_emoji</span> - Emoji that indicates a user is blocked from modmail
+<br/>
+<span className="cb">success_emoji</span> - Emoji that indicates success
+<br/>
 </details>
 
 <DiscordComponent>
@@ -136,5 +190,21 @@ The thread menu system allows users who are creating a thread to choose from pre
 ---
 You can have as many options as you'd like, as long as it doesn't exceeed the select menu option limit.
 
----
+## Thread Logging
 
+v3 showcases enhanced thread logging. You can manage the *global thread logs* with the <span className="cb">!logs</span> command and sub-commands.
+
+### Pastebin API Logs
+Yup! Instead of the old *gloomy* Discord file logs like v1 or v1, v3 uses [Pastebin](https://pastebin.com) logs. The entire thread history is uploaded to Pastebin for ease of use and makes it easier to view later.
+
+
+## Conclusion
+Improvements are being made to v3, so if you have a v1 or v2 modmail bot, you will need to [pay $1 USD](https://redirect.nziie.is-a.dev/donate) for your bot to be migrated to v2. This includes me manually transferring any snippets you have, or other configurations you want saved in v3; which is a pain.
+
+<div className="box green no-background shadow">
+<div className="title">
+Join my Development S
+erver!
+</div>
+You will need to join my development server in order to purchase this new system. <a href="https://discord.gg/b9GPHgJ6TK" className="discord-link">Join here</a>.
+</div>
