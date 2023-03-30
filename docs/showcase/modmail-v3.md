@@ -202,7 +202,7 @@ v3 uses permission levels to decide which user can use what command.
 
 
 ## Conclusion
-Improvements are being made to v3, so if you have a v1 or v2 modmail bot, you will need to [pay $1 USD](https://redirect.nziie.is-a.dev/donate) for your bot to be migrated to v2. This includes me manually transferring any snippets you have, or other configurations you want saved in v3; which is a pain.
+Improvements are being made to v3, so if you have a v1 or v2 modmail bot, you will need to [pay $2 USD](https://redirect.nziie.is-a.dev/donate) for your bot to be migrated to v2. This includes me manually transferring any snippets you have, or other configurations you want saved in v3; which is a pain.
 
 <div className="box green no-background shadow">
 <div className="title">
