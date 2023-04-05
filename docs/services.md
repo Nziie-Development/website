@@ -31,13 +31,10 @@ This plan is mainly for small bots and a good amount of features, may be slower 
   </TabItem>
 </Tabs>
 
-<button
-  data-sellix-product="642c52acb45de"
-  type="submit"
-  alt="Buy Now with sellix.io"
->
-  Purchase
-</button>
+<div className="pyc-hero__actions">
+  <Button link="https://client.pinghost-v2.pinglik.eu/aff.php?aff=7&pid=4" class="basicplanbutton">Purchase</Button>
+  <Button link="https://nziie.mysellix.io/product/642c52acb45de?rcid=cst_7f102d39d0913b91d51ccc" class="basicplanbutton">Purchase</Button>
+</div>
 
 ### Advanced Plan
 This is plan runs more complex bots better than the [basic plan](#basic-plan). This would be good for a bot that relies on Discord events, such as Modmail (for listening to messages). I personally suggest you to pick this plan, most of our clients have this.
