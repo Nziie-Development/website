@@ -17,7 +17,7 @@ export default function Home(): JSX.Element {
   />
         <meta property="title" content="vNziie--" />
         
-        <meta property="og:site_name" content="vNziie--">
+        <meta property="og:site_name" content="vNziie--"/>
         <meta
           property="og:description"
           content="Imagine a custom bot made to your liking at a very cheap price."
