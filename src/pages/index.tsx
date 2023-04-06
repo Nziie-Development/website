@@ -11,6 +11,16 @@ export default function Home(): JSX.Element {
       description="Nziie development services"
     >
 <Head>
+  <meta
+  property="description"
+  content="Imagine a custom bot made to your liking at a very cheap price."
+  />
+        <meta property="title" content="vNziie--" />
+        <meta
+          property="og:description"
+          content="Imagine a custom bot made to your liking at a very cheap price."
+        />
+        <meta property="og:title" content="vNziie--" />
 <script async src="https://arc.io/widget.min.js#hD9CJ6sv"></script>
 </Head>
       <PYCHero
