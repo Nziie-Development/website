@@ -18,7 +18,7 @@ I code all Discord bots in Python ([Pycord](https://pycord.dev) - discord.py v2 
 This plan is mainly for small bots and a good amount of features, may be slower compared to the other plans' specs.
 <Tabs>
   <TabItem value="_price" label="Price" default>
-    <strong>($3.80/3.75€) / 3 months ($1.2 / month)</strong>
+    <strong>($4.20/3.85€) / 3 months ($1.4 / month)</strong>
   </TabItem>
   <TabItem value="_ram" label="RAM">
     <strong>128 MB</strong>
@@ -32,15 +32,14 @@ This plan is mainly for small bots and a good amount of features, may be slower 
 </Tabs>
 
 <div className="pyc-hero__actions">
-  <Button link="https://client.pinghost-v2.pinglik.eu/aff.php?aff=7&pid=4" class="basicplanbutton">Purchase</Button>
-  <Button link="https://nziie.mysellix.io/product/642c52acb45de?rcid=cst_7f102d39d0913b91d51ccc" class="basicplanbutton">Purchase</Button>
+  <Button link="https://redirect.nziie.is-a.dev/purchase-basic" class="basicplanbutton">Purchase</Button>
 </div>
 
 ### Advanced Plan
 This is plan runs more complex bots better than the [basic plan](#basic-plan). This would be good for a bot that relies on Discord events, such as Modmail (for listening to messages). I personally suggest you to pick this plan, most of our clients have this.
 <Tabs>
   <TabItem value="_price" label="Price" default>
-    <strong>($5.80/5.75€)/ 3 months ($1.9 / month)</strong>
+    <strong>($6.17/5.65€)/ 3 months ($2 / month)</strong>
   </TabItem>
   <TabItem value="_ram" label="RAM">
     <strong>256 MB</strong>
@@ -54,14 +53,14 @@ This is plan runs more complex bots better than the [basic plan](#basic-plan). T
 </Tabs>
 
 <div className="pyc-hero__actions">
-  <Button link="https://nziie.mysellix.io/product/642c53fd24bc6?rcid=cst_7f102d39d0913b91d51ccc">Purchase</Button>
+  <Button link="https://redirect.nziie.is-a.dev/purchase-advanced">Purchase</Button>
 </div>
 
 ### Premium Plan
 This plan is great for all complicated bots, much faster than all the other plans.
 <Tabs>
   <TabItem value="_price" label="Price" default>
-    <strong>($10.90/10.75€) / 3 months ($3.6 / month)</strong>
+    <strong>($9.44/8.65€) / 3 months ($3.06 / month)</strong>
   </TabItem>
   <TabItem value="_ram" label="RAM">
     <strong>512 MB</strong>
@@ -75,7 +74,7 @@ This plan is great for all complicated bots, much faster than all the other plan
 </Tabs>
 
 <div className="pyc-hero__actions">
-  <Button link="https://nziie.mysellix.io/product/642c541889619?rcid=cst_7f102d39d0913b91d51ccc">Purchase</Button>
+  <Button link="https://redirect.nziie.is-a.dev/purchase-modmail-v3">Purchase</Button>
 </div>
 <br/>
 
