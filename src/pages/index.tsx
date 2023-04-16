@@ -27,11 +27,15 @@ export default function Home(): JSX.Element {
 </Head>
       <PYCHero
         title="Nziie"
-        subtitle="Imagine a custom bot made to your liking"
+        subtitle="Imagine a custom bot made to your liking."
         hasLogo={true}
       />
       <main className="content-wrap--home-page">
-      I provide cheap Discord bot services - a Pycord, HTML, CSS, JS, CSS and SCSS Developer. Imagine a custom bot made to your liking...
+        <div className="image_container">
+        <a href='https://redirect.nziie.is-a.dev/purchase-basic'><img src='/img/nziie_banners1.png' className="index_image betterimage"/></a>
+        <a href='https://redirect.nziie.is-a.dev/purchase-advanced'><img src='/img/nziie_banners2.png' className="index_image betterimage"/></a>
+        <a href='https://redirect.nziie.is-a.dev/purchase-premium'><img src='/img/nziie_banners3.png' className="index_image betterimage"/></a>
+        </div>
       </main>
     </DefaultLayout>
   );

@@ -3,6 +3,7 @@ slug: python-classes
 title: Python Classes & Usages
 description: What are Python classes and how do you use them?
 authors: nziie
+tags: [Guides]
 ---
 
 ![](./assets/car_example.png)

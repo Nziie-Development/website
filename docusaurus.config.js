@@ -37,7 +37,7 @@ const config = {
 
   themeConfig: {
     announcementBar: {
-      content: `New <a href="/showcase/modmail-v3">Modmail v3</a>!`,
+      content: `New <a href="/showcase/configs-v2">Configs v2</a>!`,
      },
     docs: {
       sidebar: {
@@ -71,16 +71,16 @@ const config = {
           title: "Development",
           items: [
             {
-              label: "Discord",
-              href: "https://discord.gg/b9GPHgJ6TK"
+              label: "⭐ Client Portal",
+              href: "https://client.nziie.is-a.dev"
             },
             {
               label: 'Services',
-              to: '/services'
+              href: "https://redirect.nziie.is-a.dev/services"
             },
             {
-              label: 'Reviews',
-              to: '/reviews'
+              label: "Discord",
+              href: "https://discord.gg/b9GPHgJ6TK"
             },
             {
               label: 'Showcase',
@@ -102,6 +102,10 @@ const config = {
           {
             label: "FAQ",
             to: "/faq"
+          },
+          {
+            label: 'Reviews',
+            to: '/reviews'
           },
         ]
       },

@@ -17,9 +17,9 @@
   color-scheme: dark;
   @include sentro.token-config(
     $blurple: (
-      'light': #5865f2,
+      'light': #2f0ab1,
       'default': #8F00FF,
-      'dark': #3f17f6,
+      'dark': #5b0dc0,
       'ink': #fff
     ),
     $surface: (
@@ -79,10 +79,22 @@
   --ifm-color-primary-lightest: #b4baf9;
 }
 
+
+.index_image {
+  max-width: 20%;
+  height:auto;
+  border-radius: 10px !important;
+  margin: 0.75rem;
+}
+
+.image_container {
+  text-align: center;
+}
+
 .betterimage {
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+  transition: all 0.4s ease;
   &:hover {
     transform: translateY(-2px);
     box-shadow: black 0px 5px 15px;
@@ -199,12 +211,12 @@ body {
   width: calc(100% - 30px);
   max-width: 1077px;
   margin: 0 auto;
-  padding: #{sentro.px-to-rem(81px)} 0 1.5rem 0;
+  padding: #{sentro.px-to-rem(81px)} 0 1rem 0;
   
   &--home-page {
     width: calc(100% - 30px);
-    max-width: 1077px;
-    margin: 0 auto;
+    max-width: 1800px; // 1077 default
+    margin: auto;
     padding: 2rem 0 1.5rem 0;
   }
 }
