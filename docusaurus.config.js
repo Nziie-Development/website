@@ -53,14 +53,14 @@ const config = {
       hideOnScroll: true,
       items: [
         {
+          href: 'https://client.nziie.is-a.dev',
+          position: 'right',
+          label: 'Client Portal',
+        },
+        {
           href: 'https://discord.com/invite/b9GPHgJ6TK',
           position: 'right',
           label: 'Discord',
-        },
-        {
-          href: '/services',
-          position: 'right',
-          label: 'Services',
         },
       ],
     },
