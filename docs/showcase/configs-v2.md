@@ -43,3 +43,14 @@ The following configurations are used globally throughout extensions and other s
 <br/>
 <span className="cb">success_emoji</span> - Emoji that indicates success
 <br/>
+
+<DiscordComponent>
+  <DiscordMessage profile="nziie" roleColor="none">
+  !config set success_color #2ecc71
+  </DiscordMessage>
+  <DiscordMessage author="Bot" avatar="blue">
+    <DiscordEmbed borderColor="#2ecc71" embedTitle="Success">
+      Set <span className="cb">success_color</span> to <span className="cb">#2ecc71</span>
+    </DiscordEmbed>
+  </DiscordMessage>
+</DiscordComponent>
