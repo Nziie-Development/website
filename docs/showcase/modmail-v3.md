@@ -1,7 +1,6 @@
 ---
-title: ✨ Modmail v3
+title: Modmail v3
 description: Modmail v3, a new, easy way to communicate with server members with a fully customizable system.
-sidebar_position: 1
 ---
 import {
   DiscordButton,

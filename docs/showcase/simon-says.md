@@ -22,7 +22,7 @@ import Admonition from '@theme/Admonition';
 ## Overview
 I made this Simon Says system many goals in mind. The most important one being to make it simple to use, and highly advanced, including advanced *game logging*. I've included game logging like no other bot has so server admins can keep track of games and makes sure they're running smoothly. Any errors the bot encounters will be logged in the game log. 
 
-**I recommend only requesting this system if you are on the [Premium Plan](../services.md#premium-plan)!**
+**I recommend only requesting this system if you are on the [Premium Plan](https://redirect.nziie.is-a.dev/purchase-premium)!**
 
 ## ⭐ Setup {#setup}
 
