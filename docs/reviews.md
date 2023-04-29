@@ -4,10 +4,7 @@ description: Client-made reviews about my development services
 sidebar_position: 3
 ---
 
-<script type="text/javascript" src="https://testimonial.to/js/iframeResizer.min.js"></script>
-<iframe id="testimonialto-carousel-all-nziie’s-client-reviews-tag-all-light" src="https://embed-v2.testimonial.to/carousel/all/nziie’s-client-reviews?theme=light&autoplay=off&showmore=off&one-row=on&same-height=off&tag=all" frameborder="0" scrolling="no" width="100%"></iframe>
-<script type="text/javascript">iFrameResize({log: false, checkOrigin: false}, "#testimonialto-carousel-all-nziie’s-client-reviews-tag-all-light");</script>
-
+<iframe height="800px" id="testimonialto-nziie’s-client-reviews-tag-all-dark-animated" src="https://embed-v2.testimonial.to/w/nziie’s-client-reviews?animated=on&theme=dark&shadowColor=000000&tag=all" frameborder="0" scrolling="no" width="100%"></iframe>
 
 
 <div class="user-card">
