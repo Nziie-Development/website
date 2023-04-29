@@ -27,12 +27,12 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 - Ticket panels
 - [Beautified ticket logging](#ticket-logging)
 
-### Logging {#ticket-logging}
+## Logging {#ticket-logging}
 Enable ticket logging by running: `<prefix>config set ticket_transcripts yes` and make sure to set the `log_channel` configuration as it inherits the ticket log channel from there. 
 
-Example: https://logs.discord.website/logs/akmw9p6t4XdoZCsQcCmexL
+__Example:__ https://logs.discord.website/logs/akmw9p6t4XdoZCsQcCmexL
 
-### Configurations
+## Configurations
 The following configurations are what comes with tickets v2:
 
 - `ticket_embed_color` - Color of the embed sent when a ticket is created (default: inherits from `main_color`)
@@ -43,6 +43,10 @@ The following configurations are what comes with tickets v2:
 - `tickets_dm_recipient_on_close` - Whether the log of the ticket should be sent to the ticket author when their ticket is closed (default: yes)
 - `tickets_dm_recipient_transcript` - Whether the transcript of the ticket should be attached to the DM if the parent config is true (default: yes)
 
+## Ticket Categories
+
+Ticket categories allow you to add multiple buttons on a panel and allows users to click a button on that message to make a ticket in a certain category.
+
 <DiscordComponent>
   <DiscordMessage author="Bot" avatar="blue">
   <div slot="interactions">
@@ -52,6 +56,16 @@ The following configurations are what comes with tickets v2:
   </div>
     <DiscordEmbed borderColor="#2ecc71" embedTitle="Success">
       Successfully created panel.
+    </DiscordEmbed>
+  </DiscordMessage>
+  <DiscordMessage author="Bot" avatar="blue">
+  <div slot="interactions">
+    <DiscordInteraction profile="nziie" command>
+      ticket categories create
+    </DiscordInteraction>
+  </div>
+    <DiscordEmbed borderColor="#2ecc71" embedTitle="Success">
+      Successfully added ticket category to panel.
     </DiscordEmbed>
   </DiscordMessage>
   <DiscordMessage author="Bot" avatar="blue">
