@@ -4,9 +4,6 @@ description: Client-made reviews about my development services
 sidebar_position: 3
 ---
 
-<iframe height="800px" id="testimonialto-nziie’s-client-reviews-tag-all-dark-animated" src="https://embed-v2.testimonial.to/w/nziie’s-client-reviews?animated=on&theme=dark&shadowColor=000000&tag=all" frameborder="0" scrolling="no" width="100%"></iframe>
-
-
 <div class="user-card">
   <div class="wrap">
     <div class="img">
