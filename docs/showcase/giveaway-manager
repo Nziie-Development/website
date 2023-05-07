@@ -1,0 +1,20 @@
+---
+title: 🆕 Giveaway Manager (Bot)
+description: A showcase of my Ticket System version 2.
+sidebar_position: 1
+---
+import {
+  DiscordButton,
+  DiscordButtons,
+  DiscordInteraction,
+  DiscordMessage,
+  DiscordMessages,
+  DiscordEmbed,
+  DiscordMention,
+  DiscordEmbedField
+} from "discord-message-components/packages/react";
+import "discord-message-components/packages/react/dist/style.css";
+import DiscordComponent, { defaultOptions } from "../../src/components/DiscordComponent";
+
+
+Coming soon :eyes:
