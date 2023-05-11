@@ -9,6 +9,8 @@ description: Terms of Use for custom bots and source code
   <strong>Last Updated:</strong> <p>5/10/2023</p>
 </div>
 
+<br/>
+
 <span className="rulenum">1.</span> You, your server, and your bot should be following <a href="https://discord.com/terms" className="discord-link">Discord's Terms of Service</a>, <a href="https://discord.com/guidelines" className="discord-link">Discord's Community Guidelines</a>, and <a href="https://discord.com/developers/docs/policies-and-agreements/terms-of-service" className="discord-link">Discord's Developer Policy</a> at all times.
 <br/>
 <br/>
