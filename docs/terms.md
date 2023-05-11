@@ -19,6 +19,9 @@ description: Terms of Use for custom bots and source code
 <br/>
 <br/>
 <span className="rulenum">4.</span> Please do not rush me, I may cancel your services without a full refund if you rush me too much. You can be patient like every other client. 
+<br/>
+<br/>
+<span className="rulenum">5.</span> Product prices changes may occur while you're an existing client. Your payment may be adjusted to that new price or a little bit lower. Priority Clients bypass any product price changes, meaning what you purchase, is what you pay. Prices may change to meet the demand of purchases or total resource costs. If the price changes on your product and you see a chance on your next invoice, you may open a ticket in the [development server](https://nziie.is-a.dev/discord) if you'd like to negotiate with me to get your renewal price lower.
 
 ## Refunds
 <span className="rulenum">1.</span> If you request a refund for your bot, it can be denied at any time without reason.
