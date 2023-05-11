@@ -5,8 +5,8 @@ description: Terms of Use for custom bots and source code
 
 
 ## Basic Rules
-<div className="box red animation no-background" style={{'margin-top': '0'}}>
-<strong>These rules should be followed regardless of what service your are using (e.g. custom bots, source code usage, etc.)</strong>
+<div className="box blurple shadow no-background" style={{'margin-top': '0'}}>
+  <strong>Last Updated:</strong> <p>5/10/2023</p>
 </div>
 
 <span className="rulenum">1.</span> You, your server, and your bot should be following <a href="https://discord.com/terms" className="discord-link">Discord's Terms of Service</a>, <a href="https://discord.com/guidelines" className="discord-link">Discord's Community Guidelines</a>, and <a href="https://discord.com/developers/docs/policies-and-agreements/terms-of-service" className="discord-link">Discord's Developer Policy</a> at all times.
