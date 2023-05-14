@@ -1,6 +1,6 @@
 ---
 title: Configs v2
-description: A showcase of my Discord Forms/application system
+description: A showcase of my new bot framework that has a built-in configuration system.
 ---
 import {
   DiscordButton,
