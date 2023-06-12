@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Nziie Blog</title>
-        <link>https://nziie.is-a.dev/blog</link>
+        <link>https://nziie.xyz/blog</link>
         <description>Nziie Blog</description>
         <lastBuildDate>Tue, 03 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[MEE6 Controversy & Explanation]]></title>
-            <link>https://nziie.is-a.dev/blog/mee6-controversy</link>
+            <link>https://nziie.xyz/blog/mee6-controversy</link>
             <guid>mee6-controversy</guid>
             <pubDate>Tue, 03 Jan 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[What's going on with MEE6, Discord, and Top.gg?]]></description>
@@ -19,7 +19,7 @@
         </item>
         <item>
             <title><![CDATA[Python Classes & Usages]]></title>
-            <link>https://nziie.is-a.dev/blog/python-classes</link>
+            <link>https://nziie.xyz/blog/python-classes</link>
             <guid>python-classes</guid>
             <pubDate>Sun, 16 Oct 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[What are Python classes and how do you use them?]]></description>
@@ -28,7 +28,7 @@
         </item>
         <item>
             <title><![CDATA[A break from Discord]]></title>
-            <link>https://nziie.is-a.dev/blog/break</link>
+            <link>https://nziie.xyz/blog/break</link>
             <guid>break</guid>
             <pubDate>Sun, 18 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Update]]></description>
@@ -36,7 +36,7 @@
         </item>
         <item>
             <title><![CDATA[Wumpus Advertisements Mod Guide]]></title>
-            <link>https://nziie.is-a.dev/blog/wa-moderation</link>
+            <link>https://nziie.xyz/blog/wa-moderation</link>
             <guid>wa-moderation</guid>
             <pubDate>Sun, 04 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Tasks]]></description>
