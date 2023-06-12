@@ -1,2 +1,2 @@
-# Economy v2
+# 🆕 Economy v2
 Coming soon...
