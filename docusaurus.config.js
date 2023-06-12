@@ -9,7 +9,7 @@ const config = {
   title: "Nziie",
   tagline:
     "Imagine a cheap custom bot made to your liking",
-  url: "https://nziie.is-a.dev/",
+  url: "https://nziie.xyz/",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
