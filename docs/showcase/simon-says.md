@@ -1,7 +1,6 @@
 ---
 title: Simon Says
 description: A showcase of my Discord Simon Says system
-sidebar_position: 2
 ---
 import {
   DiscordButton,
