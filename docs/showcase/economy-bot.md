@@ -69,4 +69,7 @@ Economy v1 was, *good enough* for how it was. It had a decent money handling sys
 <br/>
 <mention>/inventory</mention> - See your inventory, shows your items and categories items by type
 
-## Badges
+## Items
+
+
+### Badges
