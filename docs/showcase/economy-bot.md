@@ -74,4 +74,4 @@ Server administrators have the ability to generate server-specific entities, ref
 
 
 ### Badges
-This is a type of item that can be set in an item's customization. A badge is something that cannot be sold or traded, and stays on a user's profile. Users can view badges they have in the <mention>/profile</mention> command.
+Within the realm of item customization, there exists a particular category known as "badges." These badges possess distinctive attributes: they are non-transferable and non-negotiable, adorning the profiles of individual users. By executing the <mention>/profile</mention> command, users can conveniently access and observe the badges they possess.
