@@ -70,6 +70,8 @@ Economy v1 was, *good enough* for how it was. It had a decent money handling sys
 <mention>/inventory</mention> - See your inventory, shows your items and categories items by type
 
 ## Items
+Server administrators have the ability to generate server-specific entities, referred to as "items," which can be utilized in various ways such as trading, selling, and other functionalities. The options for item usage and the management of these items by the bot depend on your customization of the item's settings.
 
 
 ### Badges
+This is a type of item that can be set in an item's customization. A badge is something that cannot be sold or traded, and stays on a user's profile. Users can view badges they have in the <mention>/profile</mention> command.
