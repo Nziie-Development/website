@@ -41,30 +41,32 @@ Economy v1 was, *good enough* for how it was. It had a decent money handling sys
 
 ## Commands
 *Here is a list of all the commands in economy. All of these are customizable via the integrations tab*
-<span className="mention">/admin general</span> - Manage the general economy settings
+<mention>/admin general</mention> - Manage the general economy settings
 <br/>
-<span className="mention">/admin crimes</span> - Manage crimes
+<mention>/admin crimes</mention> - Manage crimes
 <br/>
-<span className="mention">/admin items</span> - Manage items, custom actions can be defined for each item when it's redeemed (aka the item callback), such as sending a message to a channel, adding a role, removing a role, etc.
+<mention>/admin items</mention> - Manage items, custom actions can be defined for each item when it's redeemed (aka the item callback), such as sending a message to a channel, adding a role, removing a role, etc.
 <br/>
-<span className="mention">/admin shop</span> - Manage the shop, items are able to be added to the shop
+<mention>/admin shop</mention> - Manage the shop, items are able to be added to the shop
 <br/>
-<span className="mention">/admin accounts &lt;user&gt;</span> - Manage <code>user</code>'s account in a menu; you can reset a user's balance, items, remove items, remove/add coins, and more
+<mention>/admin accounts &lt;user&gt;</mention> - Manage <code>user</code>'s account in a menu; you can reset a user's balance, items, remove items, remove/add coins, and more
 <br/>
-<span className="mention">/beg</span> - Beg for coins from random bots in the server
+<mention>/beg</mention> - Beg for coins from random bots in the server
 <br/>
-<span className="mention">/search</span> - Search a spot for items
+<mention>/search</mention> - Search a spot for items
 <br/>
-<span className="mention">/crime</span> - Commit a crime
+<mention>/crime</mention> - Commit a crime
 <br/>
-<span className="mention">/shop</span> - View the shop and buy items from it in a menu
+<mention>/shop</mention> - View the shop and buy items from it in a menu
 <br/>
-<span className="mention">/trade</span> - Start a trade request with a user
+<mention>/trade</mention> - Start a trade request with a user
 <br/>
-<span className="mention">/give</span> - Give coins to a user
+<mention>/give</mention> - Give coins to a user
 <br/>
-<span className="mention">/user-settings</span> - Manage your specific user settings
+<mention>/user-settings</mention> - Manage your specific user settings
 <br/>
-<span className="mention">/profile</span> - View your profile, badges, and more
+<mention>/profile</mention> - View your profile, badges, and more
 <br/>
-<span className="mention">/inventory</span> - See your inventory, shows your items and categories items by type
+<mention>/inventory</mention> - See your inventory, shows your items and categories items by type
+
+## Badges

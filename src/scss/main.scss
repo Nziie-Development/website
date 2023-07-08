@@ -526,6 +526,18 @@ p a{
   }
 }
 
+mention {
+  background: #414675;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 3px;
+  transition: all 0.15s ease;
+  font-weight:500;
+  &:hover {
+    background:#5865f2;
+  }
+}
+
 .timestamp {
   background: #42464d;
   padding-left: 3px;
@@ -534,6 +546,7 @@ p a{
 }
 
 code {
+  all: revert;
   background: #42464d;
   padding-left: 2px;
   padding-right: 2px;
@@ -541,7 +554,6 @@ code {
   border-bottom:3px;
   font-family: inherit;
   border: none;
-  font-size: 95%;
 }
 
 .cb {
