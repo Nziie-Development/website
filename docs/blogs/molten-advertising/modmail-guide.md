@@ -57,7 +57,7 @@ For example, you can use <span className="mention">.move moderation</span> to mo
 ## Snippet Commands
 |     Usage               |  Description   |
 | ----------------------- | ----------- |
-| <code>.[snippet\|s] <a></a>[name] </code> | View all the snippets or view one's content |
+| <code>.[snippet_name] </code> | View all the snippets or view one's content |
 | <code>.<snippet_name></code> | Invoke a snippet by name |
 | <code>.[snippet\|s] add &lt;name&gt &lt;value&gt</code> | (Management Only) Add a snippet |
 | <code>.[snippet\|s] remove &lt;name&gt </code> | (Management Only) Remove/delete a snippet |
