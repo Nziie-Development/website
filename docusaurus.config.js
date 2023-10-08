@@ -37,7 +37,7 @@ const config = {
 
   themeConfig: {
     announcementBar: {
-      content: `New <a href="/showcase/configs-v2">Configs v2</a>!`,
+      // content: `New <a href="/showcase/configs-v2">Configs v2</a>!`,
      },
     docs: {
       sidebar: {
