@@ -24,7 +24,7 @@ AnonDev's Discord server: [Pinglik Support Server](https://pinglik.eu/support)
 **Invite:** https://servermanagerbot.ml/invite <br/>
 **Documentation:** https://servermanagerbot.ml/docs
 
-## BumpYourServer (150+ servers)
+## BumpYourServer (5k+ servers)
 BumpYourServer is an effective and easy-to-use Discord bot designed to boost and market your servers across different platforms. By creating a designated bump channel, you can actively engage in server promotion. Our team carefully moderates all servers that are bumped to guarantee compliance with our Terms of Service, as well as Discord's Terms of Service and Community Guidelines. If any issues escape our attention, users can report problematic servers to us, and we will swiftly address violations in server behavior and descriptions.
 
 **Website:** https://bys.nziie.xyz
