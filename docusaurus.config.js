@@ -36,9 +36,9 @@ const config = {
   ],
 
   themeConfig: {
-    announcementBar: {
+    // announcementBar: {
       // content: `New <a href="/showcase/configs-v2">Configs v2</a>!`,
-     },
+     // },
     docs: {
       sidebar: {
         autoCollapseCategories: true,
