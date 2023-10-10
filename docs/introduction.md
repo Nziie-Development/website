@@ -17,8 +17,8 @@ If you are interested in hosting your Discord bot or other project on [PingHost]
 AnonDev's Discord server: [Pinglik Support Server](https://pinglik.eu/support)
 
 
-## Server Manager (800+ servers)
-[Server Manager](https://servermanagerbot.ml/invite) is a multipurpose bot that I've created using **Pycord**. It's growing fast and has **Moderation**, **Utility**, **a Suggestions System**, **Giveaways**, **Polls**, and more!
+## Server Manager (900+ servers)
+[Server Manager](https://manager.nziie.xyz/invite) is a multipurpose bot that I've created using **Pycord**. It's growing fast and has **Moderation**, **Utility**, **a Suggestions System**, **Giveaways**, **Polls**, and more!
 
 **Website:** https://servermanagerbot.ml/ <br/>
 **Invite:** https://servermanagerbot.ml/invite <br/>
