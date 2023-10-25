@@ -1,6 +1,7 @@
 ---
 title: Moderation v3
 description: More details about Moderation v3 coming soon.
+sidebar_position: 1
 ---
 import {
   DiscordButton,
