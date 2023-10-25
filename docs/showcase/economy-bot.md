@@ -1,7 +1,6 @@
 ---
 title: Economy Bot (Concept)
 description: A showcase of my Economy System version 2. Newly and improved customization and economy handler.
-sidebar_position: 1
 ---
 # Economy Bot (Concept)
 Economy v1 was, *good enough* for how it was. It had a decent money handling system, but what it lacked was customization. It wasn’t really popular because I didn’t showcase it often, as I wasn’t very proud of it. **But oh damn,** __Economy v2__ is the exact opposite of what I just said. 
