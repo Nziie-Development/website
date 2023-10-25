@@ -1,7 +1,6 @@
 ---
 title: Tickets v2
 description: A showcase of my Ticket System version 2.
-sidebar_position: 2
 ---
 import {
   DiscordButton,
