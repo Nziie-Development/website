@@ -23,9 +23,9 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 
 Similar to [Moderation v2](./moderation.md#v2), v3 uses command flags for easier understanding of argument slicing, so you can get your command arguments correct without something getting cut off.
 
-| Usage | Description |
-| ----------------------- | ----------- |
-| <code>!warn &lt;member&gt &lt;flags&gt</code> | |
+| Usage | Description | Example |
+| ----------- | ----------- | ----------- |
+| <code>!warn &lt;member&gt &lt;flags&gt</code> | Warn a member in the server | <code>!warn &lt;member&gt ?r Mass pinging members ?p</code>
 |  | |
 |  |  |
 |  |  |
