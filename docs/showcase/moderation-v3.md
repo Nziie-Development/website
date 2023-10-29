@@ -1,5 +1,5 @@
 ---
-title: 🆕 Moderation v3
+title: 🔜 Moderation v3
 description: Moderation v3 offers a user-friendly and feature-rich moderation system with prefix commands, making it a valuable tool for effortlessly overseeing and managing your server. Statistics to track a moderator's career, new and improved cases system, message customization, appeals, command argument flags, and much more.
 sidebar_position: 1
 ---
