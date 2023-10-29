@@ -127,6 +127,8 @@ If you'd like the v1 moderation system in your bot, simply just ask!
 | <code>!case &lt;warning_id&gt</code> | View an warning by ID |
 | <code>!delwarn &lt;warning_id&gt</code> | Delete an warning by ID (Admins only) |
 
+(Above is unfinished)
+
 <details className="customdetails" open>
 <summary>🚩 Command Flags</summary>
 <h4>Warning Flags</h4>

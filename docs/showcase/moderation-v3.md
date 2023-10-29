@@ -19,4 +19,43 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 
 *Moderation v3 provides a user-friendly, feature-rich moderation system complete with prefix commands, serving as a valuable tool for effectively supervising and managing your server. It includes statistical tracking for a moderator's performance, an enhanced case system, customizable messages, appeals, command argument flags, and a range of additional functionalities. With a fusion of features from multiple bots, Moderation v3 streamlines these capabilities into one unified system. Maintaining a pristine and organized server through effective moderation has never been more straightforward.*
 
+## Commands
 
+Similar to [Moderation v2](./moderation.md#v2), v3 uses command flags for easier understanding of argument slicing, so you can get your command arguments correct without something getting cut off.
+
+| Usage | Description |
+| ----------------------- | ----------- |
+| <code>!warn &lt;member&gt &lt;flags&gt</code> | |
+|  | |
+|  |  |
+|  |  |
+|  |  |
+
+### Command Flags
+
+<div className="box blurple no-background shadow">
+<h4><div class="tooltip"><span class="tooltiptext">Available in every moderation command</span><span class="question-mark">❓</span></div> Global Flags</h4>
+
+> <span className="timestamp">?r</span> - The reason for the action; shown to the user and logged in cases
+<br/>
+> <span className="timestamp">?p</span> - Proof being attached to the action; usually a message or image link
+<br/>
+> 
+
+<h4>Warning Flags</h4>
+
+> <span className="timestamp">?s</span> - How sensitive or how bad the warn is for the user; accepts: <code>minor</code> <code>low</code> <code>medium</code> and <code>high</code> as types
+
+<h4>Mute Flags</h4>
+
+> <span className="timestamp">?t</span> - A time argument for the action (e.g. <code>1h</code>, <code>1d</code>, <code>10m</code>; 1 hour, 1 day, 10 minutes)
+
+<h4>Kick Flags</h4>
+
+> 
+
+<h4>Ban Flags</h4>
+
+> <span className="timestamp">?ddays</span> - The number of days to delete messages from the member
+
+</div>
