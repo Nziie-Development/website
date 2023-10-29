@@ -32,9 +32,9 @@ export default function Home(): JSX.Element {
       />
       <main className="content-wrap--home-page">
         <div className="image_container">
-        <a href='https://redirect.nziie.is-a.dev/purchase-basic'><img src='/img/nziie_banners1.png' className="index_image betterimage"/></a>
-        <a href='https://redirect.nziie.is-a.dev/purchase-advanced'><img src='/img/nziie_banners2.png' className="index_image betterimage"/></a>
-        <a href='https://redirect.nziie.is-a.dev/purchase-premium'><img src='/img/nziie_banners3.png' className="index_image betterimage"/></a>
+        <a href='https://redirect.nziie.is-a.dev/purchase-modmail-v3'><img src='/img/nziie_banners_modmail_v3.png' className="index_image betterimage"/></a>
+        {/* <a href='https://redirect.nziie.is-a.dev/purchase-advanced'><img src='/img/nziie_banners2.png' className="index_image betterimage"/></a>
+        <a href='https://redirect.nziie.is-a.dev/purchase-premium'><img src='/img/nziie_banners3.png' className="index_image betterimage"/></a> */}
         </div>
       </main>
     </DefaultLayout>
