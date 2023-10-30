@@ -28,8 +28,8 @@ Similar to [Moderation v2](./moderation.md#v2), v3 uses command flags for easier
 
 | Usage | Description | Example |
 | ----------- | ----------- | ----------- |
-| <code>!warn &lt;member&gt &lt;flags&gt</code> | Warn a member in the server | <code>!warn &lt;member&gt ?r Mass pinging members ?p</code>
-|  | |
+| <code>!warn &lt;member&gt &lt;flags&gt</code> | Warn a member in the server | <code>!warn @nziie.dev ?r Pinging members randomly ?p https://nziie.xyz/video</code>
+| <code>!mute &lt;member&gt &lt;flags&gt</code> | Mute a member using Discord's timeout system | <code>!mute @nziie.dev ?r Mass pinging members ?t 12h ?p https://cdn.nziie.xyz/proof.png</code>
 |  |  |
 |  |  |
 |  |  |
