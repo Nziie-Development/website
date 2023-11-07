@@ -19,6 +19,13 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 ## 🎉 v3.0.0 {#why-v3}
 Modmail v3 includes a robust configuration system to configure 99% of the bot's responses, leaving the sky as the limit of possibilites of how your bot can be customized to your liking, theme, or needs. v3 showcases **Discord's newest and greatest UI** while providing you a crisp low-response time. Modmail v3 is the only bot you'll ever need for user support!
 
+<div className="box blurple no-background shadow">
+<div className="title">
+Purchase
+</div>
+Purchase Modmail v3 at <strong><a href="https://r.nziie.xyz/purchase-modmail-v3" className="discord-link">r.nziie.xyz/purchase-modmail-v3</a></strong> for as cheap as <span className="timestamp">2.25€/month</span>!
+</div>
+
 ## Customizable Prefix
 Now, you can customize the prefix of your bot on the fly and have it update immediately. 
 - <span className="timestamp">!config set prefix ?</span> (changes to <strong>?</strong>)
@@ -202,6 +209,13 @@ v3 uses permission levels to decide which user can use what command.
 
 ## Conclusion
 Improvements are being made to v3, so if you have a v1 or v2 modmail bot, you will need to [pay $2 USD](https://redirect.nziie.is-a.dev/donate) for your bot to be migrated to v3. This includes me manually transferring any snippets you have, or other configurations you want saved in v3; which is a pain.
+
+<div className="box blurple no-background shadow">
+<div className="title">
+Purchase
+</div>
+Purchase Modmail v3 at <strong><a href="https://r.nziie.xyz/purchase-modmail-v3" className="discord-link">r.nziie.xyz/purchase-modmail-v3</a></strong> for as cheap as <span className="timestamp">2.25€/month</span>!
+</div>
 
 <div className="box green no-background shadow">
 <div className="title">
