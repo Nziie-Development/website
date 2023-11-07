@@ -200,8 +200,8 @@ You can have as many options as you'd like, as long as it doesn't exceed the Dis
 
 v3 showcases enhanced thread logging. You can manage the *global thread logs* with the <span className="cb">!logs</span> command and sub-commands.
 
-### Pastebin API Logs
-Yup! Instead of the old *gloomy* Discord file logs like v1 or v2, v3 uses [Pastebin](https://pastebin.com) logs. The entire thread history is uploaded to Pastebin for ease of use and makes it easier to view later.
+### Discord-Styled Logs
+Yup! No gloomy Pastebin logs anymore, v3 uses [logs.discord.website](https://logs.discord.we site) that uses Discord styles. The entire thread history is uploaded to the website for ease of use and makes it easier to view later (your data is 100% safe).
 
 ## Permission Levels
 v3 uses permission levels to decide which user can use what command.
