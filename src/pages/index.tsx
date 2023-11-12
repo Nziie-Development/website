@@ -23,7 +23,6 @@ export default function Home(): JSX.Element {
           content="Imagine a custom bot made to your liking at a very cheap price."
         />
         <meta property="og:title" content="vNziie--" />
-<script async src="https://arc.io/widget.min.js#hD9CJ6sv"></script>
 </Head>
       <PYCHero
         title="Nziie"

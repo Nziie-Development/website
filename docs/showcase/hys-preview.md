@@ -2,6 +2,7 @@
 title: 🌟 HelpYourServer (Preview)
 description: HelpYourServer is a  user-friendly, feature-rich, highly customizable moderation bot with (customizable) prefix commands, making it a valuable tool for effortlessly overseeing and managing your server. Statistics to track moderators' careers, new and improved cases system, message customization, appeals, custom punishments, mod logging, command argument flags, and much more.
 sidebar_position: 1
+unlisted: true
 ---
 import {
   DiscordButton,
