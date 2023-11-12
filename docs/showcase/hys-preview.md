@@ -1,6 +1,6 @@
 ---
-title: 🔜 Moderation v3
-description: Moderation v3 offers a user-friendly and feature-rich moderation system with prefix commands, making it a valuable tool for effortlessly overseeing and managing your server. Statistics to track a moderator's career, new and improved cases system, message customization, appeals, command argument flags, and much more.
+title: 🌟 HelpYourServer (Preview)
+description: HelpYourServer is a  user-friendly, feature-rich, highly customizable moderation bot with (customizable) prefix commands, making it a valuable tool for effortlessly overseeing and managing your server. Statistics to track moderators' careers, new and improved cases system, message customization, appeals, custom punishments, mod logging, command argument flags, and much more.
 sidebar_position: 1
 ---
 import {
@@ -28,8 +28,8 @@ Similar to [Moderation v2](./moderation.md#v2), v3 uses command flags for easier
 
 | Usage | Description | Example |
 | ----------- | ----------- | ----------- |
-| <code>!warn &lt;member&gt &lt;flags&gt</code> | Warn a member in the server | <code>!warn @nziie.dev ?r Pinging members randomly ?p https://nziie.xyz/video</code>
-| <code>!mute &lt;member&gt &lt;flags&gt</code> | Mute a member using Discord's timeout system | <code>!mute @nziie.dev ?r Mass pinging members ?t 12h ?p https://cdn.nziie.xyz/proof.png</code>
+| <code>h!warn &lt;member&gt &lt;flags&gt</code> | Warn a member in the server | <code>!warn @nziie.dev ?r Pinging members randomly ?p https://nziie.xyz/video</code>
+| <code>h!mute &lt;member&gt &lt;flags&gt</code> | Mute a member using Discord's timeout system | <code>!mute @nziie.dev ?r Mass pinging members ?t 12h ?p https://cdn.nziie.xyz/proof.png</code>
 |  |  |
 |  |  |
 |  |  |
