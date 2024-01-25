@@ -71,17 +71,13 @@ For example, you can use <span className="mention">.move moderation</span> to mo
 ### Any other commands you may be confused with, check out [The Modmail v3 post](/docs/showcase/modmail-v3.md) for more info!
 
 ## Modmail Rules
-**1.** When a thread is made, all online staff will get pinged. **To claim a thread, use the `.claim` command**, other staff should obey that you claimed the thread. If you’re inactive in a thread for a few hours when a user responds, they have the right to 'overclaim.'
+**1.** When handling a thread, **remain professional at all times**. **Don't use shortened words** such as "**k**" or "**xD**" or "**lol**". That doesn't look very professional. With this, capitalization and grammar must be used as well. 
 
-**2.** There is such a thing as "over-claiming" where you claim a claimed thread. **You can only overclaim if you are a management member and need your serious intervention**, you were asked by the person who originally claimed the ticket to claim or if the person who claimed it isn't responding to your ping after 6 hours. Overclaim for no good reason will get you a strike or your modmail permissions revoked for a duration of time.
+**2.** <u>Stay respectful at all times</u>. Everyone must be treated with respect regardless of their words. In this case, ping an online management member.
 
-**3.** When handling a thread, **remain professional at all times**. **Don't use shortened words** such as "**k**" or "**xD**" or "**lol**". That doesn't look very professional. With this, capitalization and grammar must be used as well. 
+**3.** If someone reported a member, you aren't supposed to be sharing the actions. Use the proper snippets according to the situation. You may not tell a thread user **any** actions against anyone. If you do this, you may receive a staff strike or your modmail license will be **revoked**.
 
-**4.** <u>Stay respectful at all times</u>. Everyone must be treated with respect regardless of their words. In this case, ping an online management member.
-
-**5.** If someone reported a member, you aren't supposed to be sharing the actions. Use the proper snippets according to the situation. You may not tell a thread user **any** actions against anyone. If you do this, you may receive a staff strike or your modmail license will be **revoked**.
-
-**6.** Move a thread to the correct team category with `.move <team>`. Please don't handle threads that aren't for your department. 
+**4.** Move a thread to the correct team category with `.move <team>`. Please don't handle threads that aren't for your department. 
 
 ## Example Situation
 
