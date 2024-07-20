@@ -23,7 +23,7 @@ Modmail v3 includes a robust configuration system to configure 99% of the bot's 
 <div className="title">
 Purchase
 </div>
-Purchase Modmail v3 at <strong><a href="https://r.nziie.xyz/purchase-modmail-v3" className="discord-link">r.nziie.xyz/purchase-modmail-v3</a></strong> for as cheap as <span className="timestamp">2.25€/month</span>!
+Purchase Modmail v3 at <strong><a href="https://r.nziie.xyz/purchase-modmail-v3" className="discord-link">r.nziie.xyz/purchase-modmail-v3</a></strong> for as cheap as <span className="timestamp">2.50€/month</span>!
 </div>
 
 ## Customizable Prefix
